@@ -1,0 +1,61 @@
+function Calc
+[num,txt,raw]=xlsread('d:\公开\6061铝合金算例\计算过程\1动态再结晶数学模型.xls',1,'B2:C31');
+%plot(num(:,2),num(:,1));
+for i=1:6
+%epsilon=num(1:5,1)';
+epsilon=num((i-1)*5+1:i*5,1)';
+sigma=num((i-1)*5+1:i*5,2)';
+lnepsilon=log(epsilon);
+lnsigma=log(sigma);
+r=1;%确定拟合多项式最高次项
+pn1=polyfit(lnsigma,lnepsilon,r);
+pbeta=polyfit(sigma,lnepsilon,r);
+%y1=polyval(p,lnsigma);
+%plot(lnsigma,lnepsilon,'r',lnsigma,y1,'-b');
+pn1mean(i)=pn1(1);
+pbetamean(i)=pbeta(1);
+end;
+n1=mean(pn1mean)
+beta=mean(pbetamean)
+alpha=beta/n1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%求解lnepsilon=n*ln(sinh(alpha*sigma)，求解n
+for i=1:6
+%epsilon=num(1:5,1)';
+epsilon=num((i-1)*5+1:i*5,1)';
+sigma=num((i-1)*5+1:i*5,2)';
+lnepsilon=log(epsilon);
+%lnsigma=log(sigma);
+lnsinh=log(sinh(alpha*sigma));
+r=1;%确定拟合多项式最高次项
+pn=polyfit(lnsinh,lnepsilon,r);
+%y1=polyval(pn,lnsinh);
+%plot(lnsigma,lnepsilon,'r',lnsigma,y1,'-b');
+pnmean(i)=pn(1);
+pninter(i)=pn(2);
+end;
+n=mean(pnmean)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%求解S
+clear epsilon;
+[epsilon_1]=xlsread('d:\公开\6061铝合金算例\计算过程\1动态再结晶数学模型.xls',2,'A2:A26');
+[T_1]=xlsread('d:\公开\6061铝合金算例\计算过程\1动态再结晶数学模型.xls',2,'C2:C26');
+[sigma_1]=xlsread('d:\公开\6061铝合金算例\计算过程\1动态再结晶数学模型.xls',2,'E2:E26');
+%epsilon_1=epsilon_1';
+%T_1=T_1';
+for i=1:5
+%epsilon=num(1:5,1)';
+epsilon=epsilon_1((i-1)*5+1:i*5)';
+T=T_1((i-1)*5+1:i*5)';
+sigma=sigma_1((i-1)*5+1:i*5)';
+T=1000./T;
+lnepsilon=log(epsilon);
+lnsinh=log(sinh(alpha*sigma));
+r=1;%确定拟合多项式最高次项
+pS=polyfit(T,lnsinh,r);
+%y1=polyval(p,lnsigma);
+%plot(lnsigma,lnepsilon,'r',lnsigma,y1,'-b');
+pSmean(i)=pS(1);
+end;
+S=mean(pSmean)
+R=8.31;
+Q=R*n*S
+end

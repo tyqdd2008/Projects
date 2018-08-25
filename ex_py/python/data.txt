@@ -1,0 +1,751 @@
+function varargout = Data_exe(varargin)
+% DATA_EXE MATLAB code for Data_exe.fig
+%      DATA_EXE, by itself, creates a new DATA_EXE or raises the existing
+%      singleton*.
+%
+%      H = DATA_EXE returns the handle to a new DATA_EXE or the handle to
+%      the existing singleton*.
+%
+%      DATA_EXE('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in DATA_EXE.M with the given input arguments.
+%
+%      DATA_EXE('Property','Value',...) creates a new DATA_EXE or raises the
+%      existing singleton*.  Starting from the left, property value pairs are
+%      applied to the GUI before Data_exe_OpeningFcn gets called.  An
+%      unrecognized property name or invalid value makes property application
+%      stop.  All inputs are passed to Data_exe_OpeningFcn via varargin.
+%
+%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
+%      instance to run (singleton)".
+%
+% See also: GUIDE, GUIDATA, GUIHANDLES
+
+% Edit the above text to modify the response to help Data_exe
+
+% Last Modified by GUIDE v2.5 19-Oct-2015 14:54:03
+
+% Begin initialization code - DO NOT EDIT
+gui_Singleton = 1;
+gui_State = struct('gui_Name',       mfilename, ...
+                   'gui_Singleton',  gui_Singleton, ...
+                   'gui_OpeningFcn', @Data_exe_OpeningFcn, ...
+                   'gui_OutputFcn',  @Data_exe_OutputFcn, ...
+                   'gui_LayoutFcn',  [] , ...
+                   'gui_Callback',   []);
+if nargin && ischar(varargin{1})
+    gui_State.gui_Callback = str2func(varargin{1});
+end
+
+if nargout
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+else
+    gui_mainfcn(gui_State, varargin{:});
+end
+% End initialization code - DO NOT EDIT
+
+
+% --- Executes just before Data_exe is made visible.
+function Data_exe_OpeningFcn(hObject, eventdata, handles, varargin)
+% This function has no output args, see OutputFcn.
+% hObject    handle to figure
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+% varargin   command line arguments to Data_exe (see VARARGIN)
+
+% Choose default command line output for Data_exe
+handles.output = hObject;
+handles.i_flag_respond=0;
+% Update handles structure
+guidata(hObject, handles);
+
+% UIWAIT makes Data_exe wait for user response (see UIRESUME)
+%uiwait(handles.figure1);
+
+
+% --- Outputs from this function are returned to the command line.
+function varargout = Data_exe_OutputFcn(hObject, eventdata, handles) 
+% varargout  cell array for returning output args (see VARARGOUT);
+% hObject    handle to figure
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Get default command line output from handles structure
+varargout{1} = handles.output;
+
+
+
+function edit_readData_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_readData (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_readData as text
+%        str2double(get(hObject,'String')) returns contents of edit_readData as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_readData_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_readData (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_temp_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_temp (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_temp as text
+%        str2double(get(hObject,'String')) returns contents of edit_temp as a double
+str=get(handles.edit_temp,'string');
+temp_value=str2num(char(str));
+handles.temp_value=temp_value;
+guidata(hObject,handles);
+a=1;
+
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_temp_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_temp (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_strainSpeed_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_strainSpeed (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_strainSpeed as text
+%        str2double(get(hObject,'String')) returns contents of edit_strainSpeed as a double
+str=get(handles.edit_temp,'string');
+strainspd=str2num(char(str));
+handles.strainspd=strainspd;
+guidata(hObject,handles);
+% --- Executes during object creation, after setting all properties.
+function edit_strainSpeed_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_strainSpeed (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on button press in pushbutton_readData.
+function pushbutton_readData_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton_readData (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+[filename, pathname] = uigetfile('*.txt', 'Pick an file');
+handles.pathname=pathname;
+handles.filename=filename;
+guidata(hObject,handles);
+
+set(handles.edit_readData,'string',strcat(pathname,filename));
+str=get(handles.edit_readData,'string');
+
+
+% --- Executes on button press in pushbutton_imageShow.
+function pushbutton_imageShow_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton_imageShow (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+[filename,temp,sspeed]=textread(strcat(handles.pathname,handles.filename),...,
+                                 '%s %d %f','delimiter',',','headerlines',1);
+                                 %读取实验参考文件数据
+ii_value=1;
+temp_temp=sort(temp);
+temp_value(ii_value)=temp_temp(ii_value);
+for i_temp_value=2:length(temp)
+    if temp_value(ii_value)~=temp_temp(i_temp_value)
+        ii_value=ii_value+1;
+        temp_value(ii_value)=temp_temp(i_temp_value);
+    end        
+end
+ii_value=1;
+sspeed_temp=sort(sspeed);
+strainspd_value(ii_value)=sspeed_temp(ii_value);
+for i_temp_value=2:length(sspeed)
+    if strainspd_value(ii_value)~=sspeed_temp(i_temp_value)
+        ii_value=ii_value+1;
+        strainspd_value(ii_value)=sspeed_temp(i_temp_value);
+    end        
+end
+
+%temp_value=[900,1000,1100,1150,1200];%设定温度值
+%strainspd_value=[0.001,0.01,0.1,1,10];%设定应变速率值
+set(handles.edit_temp,'string',num2str(temp_value));
+set(handles.edit_strainSpeed,'string',strrep(num2str(strainspd_value),'        ',' '));
+setappdata(0,'GUI1_temp_value',temp_value);
+setappdata(0,'GUI1_strainspd_value',strainspd_value);
+handles.temp_value=temp_value;
+handles.strainspd_value=strainspd_value;
+n_temp_value=length(temp_value);
+n_strainspd_value=length(strainspd_value);
+for i=1:n_temp_value
+    set(eval(strcat('handles.radiobutton',num2str(i))),'String',num2str(temp_value(i)));
+end
+n_filename=length(filename);
+n_temp=length(temp);
+n_sspeed=length(sspeed);
+i_plot=1;
+i_plot_strain=1;%%用来计算画图中每个温度下的应变速率个数
+xls_output='A';
+i_xls_output=0;
+i_respond=1;
+try
+    GUI1_strain_from_GUI2=getappdata(0,'GUI2_strain_modify1');
+    GUI1_stress_from_GUI2=getappdata(0,'GUI2_stress_modify1');
+%    if  ~isempty(GUI1_strain_from_GUI2)
+        for i=1:n_strainspd_value
+           delete(get(handles.respond((i-1)*n_strainspd_value+1),'parent')); 
+        end
+        i_respond=1;
+        for i_temp_value=1:n_temp_value
+            subplot(1,n_strainspd_value,i_temp_value,'Parent',handles.uipanel_showImage);
+            for i_strainspd_value=1:n_strainspd_value
+                respond(i_respond)=plot(GUI1_strain_from_GUI2{i_temp_value,i_strainspd_value},GUI1_stress_from_GUI2{i_temp_value,i_strainspd_value});
+                handles.respond(i_respond)=respond(i_respond);
+                guidata(hObject,handles);
+                hold on;
+                i_respond=i_respond+1;
+            end
+        end
+    
+catch    
+  %  else
+        for i_temp_value=1:n_temp_value%i_temp中表示实验温度数组的下标
+        %axes(eval(strcat('handles.axes',num2str(i_temp_value))));
+        for i_filename=1:n_filename%i_filename表示实验参考文件的数组的下标
+            if(temp(i_filename)==temp_value(i_temp_value))
+                filename1=char(strcat(handles.pathname,...,
+                                     filename(i_filename)));%读取实验数据
+                [strain,stress]=textread(filename1,'%*f %*f %*f %f %f %*f %*f %*f','headerlines',1);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%以后加一步判断
+                strain=strain.*(-1);
+                stress=stress.*(-1);
+                n_strain=length(strain);
+                n_stress=length(stress);
+                %            if(n_stress!=n_strain)
+                %                return 0;
+                %            end
+                num_min=0;%num中用来存放strain中小于0的数的下标
+                num_max=0;%num中用来存放strain中小于0.9的数的下标
+
+                for i_strain=1:n_strain
+                    if(strain(i_strain)<0.0000)
+                        num_min=i_strain;
+                    end
+                end
+                for i_strain=1:n_strain
+                    if(strain(i_strain)>0.8000)
+                        num_max=i_strain;
+                        break;
+                    end
+                end
+
+                plot_strainspd=sspeed(i_filename);%用来存放每次画图的应变速率，放在EXCEL表头中
+
+                strain=strain(num_min+1:num_max-1);
+                stress=stress(num_min+1:num_max-1);
+                eval(['plot_strain',num2str(i_plot_strain),'=strain;']);
+                eval(['plot_stress',num2str(i_plot_strain),'=stress;']);
+                plot_picked_strain(i_temp_value,i_plot_strain)={eval(strcat('plot_strain',num2str(i_plot_strain)))};
+                plot_picked_stress(i_temp_value,i_plot_strain)={eval(strcat('plot_stress',num2str(i_plot_strain)))};
+                subplot(1,n_strainspd_value,i_temp_value,'Parent',handles.uipanel_showImage);
+                %axes(eval(strcat(handles.axes,num2str(i_temp_value))));
+      %          plot(eval(strcat('handles.axes',num2str(i_temp_value))),eval(strcat('plot_strain',num2str(i_plot_strain))),eval(strcat('plot_stress',num2str(i_plot_strain))));
+                respond(i_respond)=plot(eval(strcat('plot_strain',num2str(i_plot_strain))),eval(strcat('plot_stress',num2str(i_plot_strain))));
+                handles.i_strain(i_respond)=sspeed(i_filename);
+                handles.respond(i_respond)=respond(i_respond);
+                h_text=text(strain(floor(length(strain)/2)),stress(floor(length(stress)/2)),num2str(handles.i_strain(i_respond)));
+                uistack(h_text,'down');
+                handles.plot_picked_strain(i_temp_value,i_plot_strain)=plot_picked_strain(i_temp_value,i_plot_strain);
+                handles.plot_picked_stress(i_temp_value,i_plot_strain)=plot_picked_stress(i_temp_value,i_plot_strain);
+                guidata(hObject,handles);
+                set(respond(i_respond),'ButtonDownFcn',{@picture2Callback,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+                hold on;
+                i_respond=i_respond+1;
+                i_plot_strain=i_plot_strain+1;
+
+            end
+        end
+
+        hold off
+        i_plot_strain=1;
+
+        end
+        setappdata(0,'GUI1_strain',plot_picked_strain);
+        setappdata(0,'GUI1_stress',plot_picked_stress);
+        setappdata(0,'GUI1_i_strain',handles.i_strain);
+%    end
+end
+
+handles.i_flag_respond=0;
+guidata(hObject,handles);
+function picture2Callback(hObject, eventdata, handles) %自定义的callback函数
+%屏幕特效
+n=length(handles.respond);
+[x,y]=ginput(1);
+for i=1:n
+    if hObject==handles.respond(i)
+        msgbox(strcat('R',num2str(i),'=',num2str(y)));    
+        break;
+    end
+end
+%msgbox(strcat(num2str(x),',',num2str(y)));
+function picture2Callback_1(hObject, eventdata, handles) %每个温度单独显示的响应函数
+%屏幕特效
+n=length(handles.picked_respond);
+[x,y]=ginput(1);
+plot(x,y,'-mo');
+%hold on;
+for i=1:n
+    if hObject==handles.picked_respond(i)
+        for j=1:length(handles.strainspd_value)
+            if (handles.i_strain(handles.n_picked_respond)==handles.strainspd_value(j))
+                %handles=guidata(gcbo);
+  %              handles.R(handles.n_picked_temp,j)=y;
+         %      guidata(hObject,handles.n_picked_respond);%%%此语句完全将handles覆盖成一个单一数据
+     %           guidata(hObject,handles);
+    %            msgbox(strcat('R','_',num2str(handles.i_strain(handles.n_picked_respond)),'=',num2str(handles.R(handles.n_picked_temp,j)))); %handles.n_picked_respond用来记录不同温度下R的下标   
+                handles=guidata(gcbo);%%%%自定义函数中导入handles数据
+                handles.R(handles.n_picked_temp,j)=y;
+                guidata(hObject,handles);
+    %            msgbox(strcat('R','_',num2str(handles.i_strain(handles.n_picked_respond)),'=',num2str(handles.R(handles.n_picked_temp,j)))); %handles.n_picked_respond用来记录不同温度下R的下标
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%导入handles数据后之前的循环数据n_picked_respond都跳到循环末尾
+                break;
+            end
+        end
+    end
+end
+%guidata(hObject,handles);
+
+%msgbox(strcat(num2str(x),',',num2str(y)))
+
+
+function edit_n1_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_n1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_n1 as text
+%        str2double(get(hObject,'String')) returns contents of edit_n1 as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_n1_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_n1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_beta_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_beta (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_beta as text
+%        str2double(get(hObject,'String')) returns contents of edit_beta as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_beta_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_beta (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_alpha_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_alpha (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_alpha as text
+%        str2double(get(hObject,'String')) returns contents of edit_alpha as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_alpha_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_alpha (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_n_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_n (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_n as text
+%        str2double(get(hObject,'String')) returns contents of edit_n as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_n_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_n (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_S as text
+%        str2double(get(hObject,'String')) returns contents of edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edit_Q_Callback(hObject, eventdata, handles)
+% hObject    handle to edit_Q (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit_Q as text
+%        str2double(get(hObject,'String')) returns contents of edit_Q as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit_Q_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit_Q (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- If Enable == 'on', executes on mouse press in 5 pixel border.
+% --- Otherwise, executes on mouse press in 5 pixel border or over pushbutton_readData.
+function pushbutton_readData_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to pushbutton_readData (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes when selected object is changed in uipanel5.
+function uipanel5_SelectionChangeFcn(hObject, eventdata, handles)
+% hObject    handle to the selected object in uipanel5 
+% eventdata  structure with the following fields (see UIBUTTONGROUP)
+%	EventName: string 'SelectionChanged' (read only)
+%	OldValue: handle of the previously selected object or empty if none was selected
+%	NewValue: handle of the currently selected object
+% handles    structure with handles and user data (see GUIDATA)
+n_strainspd_value=length(handles.strainspd_value);
+if ~handles.i_flag_respond%i_flag_respond 用来记录是否为第一次进入回调函数，第一次进入回调函数要先将之前的图全部删除
+    for i=1:n_strainspd_value
+       delete(get(handles.respond((i-1)*n_strainspd_value+1),'parent')); 
+    end
+    handles.i_flag_respond=1;
+    handles.h_axes=axes('Parent',handles.uipanel_showImage);%删除完图之后要新建坐标系用来放置新的图片，uipanel不能直接放置新的plot图
+    handles.i_flag_h_axes=1;
+end
+if handles.h_axes&&handles.i_flag_h_axes==0%第二次进入后要重新删除坐标轴
+    delete(handles.h_axes);
+end
+ if ~handles.i_flag_h_axes%删除坐标轴后重新建立新的坐标轴
+    handles.h_axes=axes('Parent',handles.uipanel_showImage);
+ end
+ handles.R(length(handles.temp_value),length(handles.strainspd_value))=0;
+ guidata(hObject,handles);
+ if getappdata(0,'i_modifyImage_flag')==1
+    handles.plot_picked_strain=getappdata(0,'GUI2_strain_modify1');
+    handles.plot_picked_stress=getappdata(0,'GUI2_stress_modify1');
+ end
+ try
+    switch get(hObject,'Tag')%使用switch语句用来分别处理不同的radiobutton的回调函数
+        case 'radiobutton1'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{1,i},handles.plot_picked_stress{1,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=i;
+                handles.n_picked_temp=1;
+                h_text=text(handles.plot_picked_strain{1,i}(floor(length(handles.plot_picked_strain{1,i})/2)),...,
+                     handles.plot_picked_stress{1,i}(floor(length(handles.plot_picked_stress{1,i})/2)),...,
+                     num2str(handles.i_strain(i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+        case 'radiobutton2'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{2,i},handles.plot_picked_stress{2,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value+i;
+                handles.n_picked_temp=2;
+                h_text=text(handles.plot_picked_strain{2,i}(floor(length(handles.plot_picked_strain{2,i})/2)),...,
+                     handles.plot_picked_stress{2,i}(floor(length(handles.plot_picked_stress{2,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+        case 'radiobutton3'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{3,i},handles.plot_picked_stress{3,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*2+i;
+                handles.n_picked_temp=3;
+                h_text=text(handles.plot_picked_strain{3,i}(floor(length(handles.plot_picked_strain{3,i})/2)),...,
+                     handles.plot_picked_stress{3,i}(floor(length(handles.plot_picked_stress{3,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*2+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+        case 'radiobutton4'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{4,i},handles.plot_picked_stress{4,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*3+i;
+                handles.n_picked_temp=4;
+                h_text=text(handles.plot_picked_strain{4,i}(floor(length(handles.plot_picked_strain{4,i})/2)),...,
+                     handles.plot_picked_stress{4,i}(floor(length(handles.plot_picked_stress{4,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*3+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+        case 'radiobutton5'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{5,i},handles.plot_picked_stress{5,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*4+i;
+                handles.n_picked_temp=5;
+                h_text=text(handles.plot_picked_strain{5,i}(floor(length(handles.plot_picked_strain{5,i})/2)),...,
+                     handles.plot_picked_stress{5,i}(floor(length(handles.plot_picked_stress{5,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*4+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+            case 'radiobutton6'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{6,i},handles.plot_picked_stress{6,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*5+i;
+                handles.n_picked_temp=6;
+                h_text=text(handles.plot_picked_strain{6,i}(floor(length(handles.plot_picked_strain{6,i})/2)),...,
+                     handles.plot_picked_stress{6,i}(floor(length(handles.plot_picked_stress{6,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*5+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+            case 'radiobutton7'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{7,i},handles.plot_picked_stress{7,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*6+i;
+                handles.n_picked_temp=7;
+                h_text=text(handles.plot_picked_strain{7,i}(floor(length(handles.plot_picked_strain{7,i})/2)),...,
+                     handles.plot_picked_stress{7,i}(floor(length(handles.plot_picked_stress{7,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*6+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+            case 'radiobutton8'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{8,i},handles.plot_picked_stress{8,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*7+i;
+                handles.n_picked_temp=8;
+                h_text=text(handles.plot_picked_strain{8,i}(floor(length(handles.plot_picked_strain{8,i})/2)),...,
+                     handles.plot_picked_stress{8,i}(floor(length(handles.plot_picked_stress{8,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*7+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+            case 'radiobutton9'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{9,i},handles.plot_picked_stress{9,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*8+i;
+                handles.n_picked_temp=9;
+                h_text=text(handles.plot_picked_strain{9,i}(floor(length(handles.plot_picked_strain{9,i})/2)),...,
+                     handles.plot_picked_stress{9,i}(floor(length(handles.plot_picked_stress{9,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*8+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+            case 'radiobutton10'
+            for i=1:n_strainspd_value
+                respond(i)=plot(handles.h_axes,handles.plot_picked_strain{10,i},handles.plot_picked_stress{10,i});
+                handles.picked_respond(i)=respond(i);
+                handles.n_picked_respond=n_strainspd_value*9+i;
+                handles.n_picked_temp=10;
+                h_text=text(handles.plot_picked_strain{10,i}(floor(length(handles.plot_picked_strain{10,i})/2)),...,
+                     handles.plot_picked_stress{10,i}(floor(length(handles.plot_picked_stress{10,i})/2)),...,
+                     num2str(handles.i_strain(n_strainspd_value*9+i)));
+                uistack(h_text,'down');
+                set(respond(i),'ButtonDownFcn',{@picture2Callback_1,handles}); % 设置图像对象的ButtonDown回调函数为自定义函数
+
+                hold on;
+            end
+            handles.i_flag_h_axes=0;
+
+    end
+ catch
+     msgbox('error operation');
+ end
+guidata(hObject,handles);
+
+
+% --- Executes on button press in pushbutton4.
+function pushbutton4_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+Modify_image();
+
+
+% --- Executes on button press in pushbutton_Calc.
+function pushbutton_Calc_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton_Calc (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+n_temp_value=length(handles.temp_value);
+n_strainspd_value=length(handles.strainspd_value);
+epsilon=handles.strainspd_value';
+for i_temp_value=1:n_temp_value
+%epsilon=num(1:5,1)';
+
+sigma=handles.R(i_temp_value,:)';
+lnepsilon=log(epsilon);
+lnsigma=log(sigma);
+r=1;%确定拟合多项式最高次项
+pn1=polyfit(lnsigma,lnepsilon,r);
+pbeta=polyfit(sigma,lnepsilon,r);
+%y1=polyval(p,lnsigma);
+%plot(lnsigma,lnepsilon,'r',lnsigma,y1,'-b');
+pn1mean(i_temp_value)=pn1(1);
+pbetamean(i_temp_value)=pbeta(1);
+end;
+n1=mean(pn1mean)
+beta=mean(pbetamean)
+alpha=beta/n1
+set(handles.edit_n1,'String',num2str(n1));
+set(handles.edit_beta,'String',num2str(beta));
+set(handles.edit_alpha,'String',num2str(alpha));
+for i_temp_value=1:n_temp_value
+%epsilon=num(1:5,1)';
+
+sigma=handles.R(i_temp_value,:)';
+lnepsilon=log(epsilon);
+%lnsigma=log(sigma);
+lnsinh=log(sinh(alpha*sigma));
+r=1;%确定拟合多项式最高次项
+pn=polyfit(lnsinh,lnepsilon,r);
+%y1=polyval(pn,lnsinh);
+%plot(lnsigma,lnepsilon,'r',lnsigma,y1,'-b');
+pnmean(i_temp_value)=pn(1);
+pninter(i_temp_value)=pn(2);
+end;
+n=mean(pnmean)
+set(handles.edit_n,'String',num2str(n));
+clear epsilon
+epsilon=handles.strainspd_value';
+for i_strainspd_value=1:n_strainspd_value
+%epsilon=num(1:5,1)';
+
+T=handles.temp_value'+273;
+sigma=handles.R(:,i_strainspd_value)';
+T=1000./T;
+lnepsilon=log(epsilon);
+lnsinh=log(sinh(alpha*sigma))';
+r=1;%确定拟合多项式最高次项
+pS=polyfit(T,lnsinh,r);
+%y1=polyval(p,lnsigma);
+%plot(lnsigma,lnepsilon,'r',lnsigma,y1,'-b');
+pSmean(i_strainspd_value)=pS(1);
+end;
+S=mean(pSmean)
+set(handles.edit_S,'String',num2str(S));
+R=8.31;
+Q=R*n*S
+set(handles.edit_Q,'String',num2str(Q));
