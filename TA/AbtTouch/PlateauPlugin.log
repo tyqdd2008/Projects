@@ -1,0 +1,1838 @@
+2017-11-15 19:17:51.102  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:17:51.106  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:17:51.109  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:17:51.111  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:17:51.114  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:17:51.116 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:17:51.120 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '2' (long)
+2017-11-15 19:17:51.123 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:17:51.126 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:17:51.129 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '6419260' (long)
+2017-11-15 19:17:51.133  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:17:51.136  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 2.
+2017-11-15 19:17:51.139  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:17:51.143  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:17:51.146  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x61F33C.
+2017-11-15 19:17:51.150 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:17:51.152 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 2, hardwareType: 0
+2017-11-15 19:17:51.156 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:17:51.163 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:17:51.169 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:17:51.175 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:17:51.177 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:17:51.179 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:17:51.181 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:17:51.184 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:17:51.187 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:17:51.192 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:17:51.195 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:17:51.198  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:17:51.203  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 67, y = 382, duration = 500, deviceIndex = 1
+2017-11-15 19:17:51.207 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:17:51.211 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 11 0d 7e fd
+2017-11-15 19:17:51.415 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 11 0d 7e fe
+2017-11-15 19:17:51.919 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 11 0d 7e ff
+2017-11-15 19:17:52.923  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:17:53.924 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:17:53.926 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:17:53.929  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:17:53.931 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:21:02.882  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:21:02.886  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:21:02.889  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:21:02.891  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:21:02.894  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:21:02.897 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:21:02.900 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '2' (long)
+2017-11-15 19:21:02.903 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:21:02.906 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:21:02.909 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '4782332' (long)
+2017-11-15 19:21:02.913  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:21:02.916  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 2.
+2017-11-15 19:21:02.919  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:21:02.923  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:21:02.926  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x48F8FC.
+2017-11-15 19:21:02.930 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:21:02.932 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 2, hardwareType: 0
+2017-11-15 19:21:02.936 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:21:02.943 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:21:02.949 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:21:02.955 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:21:02.957 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:21:02.959 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:21:02.961 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:21:02.964 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:21:02.967 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:21:02.972 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:21:02.975 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:21:02.979  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:21:02.983  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 67, y = 382, duration = 500, deviceIndex = 1
+2017-11-15 19:21:02.987 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:21:02.991 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 11 0d 7e fd
+2017-11-15 19:21:03.195 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 11 0d 7e fe
+2017-11-15 19:21:03.698 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 11 0d 7e ff
+2017-11-15 19:21:04.702  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:21:05.704 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:21:05.706 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:21:05.709  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:21:05.712 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:21:46.892  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:21:46.897  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:21:46.900  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:21:46.902  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:21:46.904  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:21:46.907 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:21:46.910 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:21:46.913 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:21:46.916 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:21:46.920 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '5568668' (long)
+2017-11-15 19:21:46.923  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:21:46.927  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:21:46.930  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:21:46.933  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:21:46.936  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x54F89C.
+2017-11-15 19:21:46.940 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:21:46.942 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:21:46.946 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:21:46.953 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:21:46.959 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:21:46.964 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:21:46.967 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:21:46.969 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:21:46.971 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:21:46.974 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:21:46.977 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:21:46.982 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:21:46.985 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:21:46.988  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:21:46.993  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 67, y = 382, duration = 500, deviceIndex = 1
+2017-11-15 19:21:46.997 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:21:47.001 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 11 0d 7e fd
+2017-11-15 19:21:47.205 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 11 0d 7e fe
+2017-11-15 19:21:47.709 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 11 0d 7e ff
+2017-11-15 19:21:48.713  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:21:49.714 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:21:49.716 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:21:49.719  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:21:49.722 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:28:14.072  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:28:14.076  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:28:14.078  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:28:14.081  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:28:14.083  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:28:14.085 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:28:14.088 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:28:14.091 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:28:14.094 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:28:14.096 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:28:14.099  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:28:14.102  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:28:14.105  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:28:14.108  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:28:14.111  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:28:14.114 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:28:14.116 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:28:14.119 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:28:14.127 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:28:14.133 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:28:14.137 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:28:14.140 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:28:14.142 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:28:14.144 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:28:14.146 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:28:14.149 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:28:14.154 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:28:14.157 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:28:14.160  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:28:14.164  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 67, y = 382, duration = 500, deviceIndex = 1
+2017-11-15 19:28:14.168 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:28:14.171 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 11 0d 7e fd
+2017-11-15 19:28:14.374 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 11 0d 7e fe
+2017-11-15 19:28:14.876 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 11 0d 7e ff
+2017-11-15 19:28:15.877  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:28:16.877 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:28:16.879 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:28:16.882  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:28:16.884 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:30:59.258  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:30:59.263  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:30:59.266  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:30:59.268  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:30:59.270  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:30:59.273 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:30:59.277 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:30:59.280 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:30:59.283 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:30:59.286 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:30:59.290  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:30:59.293  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:30:59.296  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:30:59.300  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:30:59.303  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:30:59.306 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:30:59.309 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:30:59.313 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:30:59.320 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:30:59.326 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:30:59.332 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:30:59.334 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:30:59.336 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:30:59.338 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:30:59.341 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:30:59.344 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:30:59.349 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:30:59.352 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:30:59.356  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:30:59.361  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:30:59.365 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:30:59.369 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:30:59.573 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:31:00.076 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:31:01.080  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:31:02.080 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:31:02.082 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:31:02.085  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:31:02.087 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:31:05.949  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:31:05.954  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:31:05.957  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:31:05.959  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:31:05.961  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:31:05.964 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:31:05.968 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:31:05.971 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:31:05.974 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:31:05.977 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:31:05.980  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:31:05.984  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:31:05.987  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:31:05.990  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:31:05.993  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:31:05.997 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:31:05.999 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:31:06.003 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:31:06.011 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:31:06.016 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:31:06.022 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:31:06.024 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:31:06.026 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:31:06.028 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:31:06.031 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:31:06.034 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:31:06.039 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:31:06.042 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:31:06.046  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:31:06.050  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:31:06.055 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:31:06.058 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:31:06.262 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-15 19:31:06.765 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:31:07.769  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:31:08.769 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:31:08.771 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:31:08.774  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:31:08.777 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:31:45.694  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:31:45.698  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:31:45.702  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:31:45.704  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:31:45.706  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:31:45.709 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:31:45.712 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:31:45.715 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:31:45.718 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:31:45.722 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:31:45.725  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:31:45.729  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:31:45.732  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:31:45.735  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:31:45.739  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:31:45.742 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:31:45.744 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:31:45.748 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:31:45.756 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:31:45.762 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:31:45.767 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:31:45.769 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:31:45.771 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:31:45.774 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:31:45.777 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:31:45.779 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:31:45.785 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:31:45.788 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:31:45.791  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:31:45.796  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:31:45.800 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:31:45.804 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:31:46.008 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:31:46.512 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 15 8c 9b ff
+2017-11-15 19:31:51.513  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:31:52.513 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:31:52.515 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:31:52.518  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:31:52.521 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:33:11.348  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:33:11.352  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:33:11.356  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:33:11.358  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:33:11.360  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:33:11.363 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:33:11.366 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:33:11.369 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:33:11.372 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:33:11.375 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:33:11.379  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:33:11.382  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:33:11.385  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:33:11.389  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:33:11.392  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:33:11.395 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:33:11.398 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:33:11.401 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:33:11.409 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:33:11.415 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:33:11.420 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:33:11.422 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:33:11.424 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:33:11.426 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:33:11.430 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:33:11.432 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:33:11.437 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:33:11.440 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:33:11.443  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:33:11.448  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:33:11.452 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:33:11.456 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:33:11.659 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:33:12.162 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 15 8c 9b ff
+2017-11-15 19:33:17.163  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:33:18.164 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:33:18.166 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:33:18.169  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:33:18.172 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:41:25.082  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:41:25.086  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:41:25.089  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:41:25.091  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:41:25.093  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:41:25.096 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:41:25.099 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:41:25.102 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '1' (long)
+2017-11-15 19:41:25.105 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '0' (long)
+2017-11-15 19:41:25.109 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '3667788' (long)
+2017-11-15 19:41:25.112  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:41:25.116  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:41:25.119  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 1.
+2017-11-15 19:41:25.122  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 0.
+2017-11-15 19:41:25.125 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:41:25.128 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 1
+2017-11-15 19:41:25.131 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:41:25.139 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:41:25.145 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:41:25.150 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:41:25.152 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:41:25.154 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:41:25.156 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:41:25.159 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:41:25.162 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:41:25.168 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:41:25.171 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:41:25.174  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:41:25.178 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:41:25.182 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x9bff8b00, DLC = 8, pData = 01 00 01 ff ff ff ff ff
+2017-11-15 19:41:25.186 DEBUG CANHardware [440]  - ENTER waitForMessage
+2017-11-15 19:41:26.188 ERROR CANHardware [452]  - Message 0x9bff8b01 not received
+2017-11-15 19:41:26.190 ERROR AbtPlugin_impl [2596]  - Couldn't receive Message 0x9bff8b01
+2017-11-15 19:41:26.193 ERROR AbtPlugin_impl [964]  - setRemoteControlMode failed!
+2017-11-15 19:41:29.196  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:41:29.198 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = false
+2017-11-15 19:41:29.202 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x9bff8b00, DLC = 8, pData = 01 00 00 ff ff ff ff ff
+2017-11-15 19:41:29.206 DEBUG CANHardware [440]  - ENTER waitForMessage
+2017-11-15 19:41:30.208 ERROR CANHardware [452]  - Message 0x9bff8b01 not received
+2017-11-15 19:41:30.210 ERROR AbtPlugin_impl [2596]  - Couldn't receive Message 0x9bff8b01
+2017-11-15 19:41:31.207 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:41:31.209 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:41:42.907  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:41:42.911  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:41:42.914  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:41:42.916  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:41:42.919  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:41:42.921 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:41:42.924 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:41:42.928 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '1' (long)
+2017-11-15 19:41:42.931 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '0' (long)
+2017-11-15 19:41:42.934 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '5502636' (long)
+2017-11-15 19:41:42.937  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:41:42.941  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:41:42.944  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 1.
+2017-11-15 19:41:42.947  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 0.
+2017-11-15 19:41:42.950 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:41:42.953 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 1
+2017-11-15 19:41:42.956 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:41:42.964 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:41:42.970 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:41:42.975 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:41:42.977 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:41:42.979 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:41:42.981 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:41:42.985 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:41:42.987 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:41:42.992 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:41:42.996 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:41:42.999  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:41:43.004 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:41:43.007 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x9bff8b00, DLC = 8, pData = 01 00 01 ff ff ff ff ff
+2017-11-15 19:41:43.011 DEBUG CANHardware [440]  - ENTER waitForMessage
+2017-11-15 19:41:44.013 ERROR CANHardware [452]  - Message 0x9bff8b01 not received
+2017-11-15 19:41:44.015 ERROR AbtPlugin_impl [2596]  - Couldn't receive Message 0x9bff8b01
+2017-11-15 19:41:44.018 ERROR AbtPlugin_impl [964]  - setRemoteControlMode failed!
+2017-11-15 19:41:47.021  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:41:47.023 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = false
+2017-11-15 19:41:47.027 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x9bff8b00, DLC = 8, pData = 01 00 00 ff ff ff ff ff
+2017-11-15 19:41:47.031 DEBUG CANHardware [440]  - ENTER waitForMessage
+2017-11-15 19:41:48.033 ERROR CANHardware [452]  - Message 0x9bff8b01 not received
+2017-11-15 19:41:48.035 ERROR AbtPlugin_impl [2596]  - Couldn't receive Message 0x9bff8b01
+2017-11-15 19:41:49.033 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:41:49.035 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:42:49.595  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:42:49.599  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:42:49.602  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:42:49.604  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:42:49.606  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:42:49.609 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:42:49.612 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:42:49.615 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:42:49.618 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:42:49.622 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:42:49.625  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:42:49.628  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:42:49.631  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:42:49.635  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:42:49.638  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:42:49.641 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:42:49.644 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:42:49.647 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:42:49.655 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:42:49.661 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:42:49.666 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:42:49.668 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:42:49.670 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:42:49.672 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:42:49.675 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:42:49.678 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:42:49.683 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:42:49.686 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:42:49.689  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:42:49.694  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:42:49.698 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:42:49.702 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:42:49.907 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:42:50.410 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 15 8c 9b ff
+2017-11-15 19:42:53.413  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:42:54.415 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:42:54.417 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:42:54.420  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:42:54.423 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:51:32.353  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:51:32.357  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:51:32.360  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:51:32.362  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:51:32.365  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:51:32.367 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:51:32.370 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:51:32.374 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:51:32.377 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:51:32.380 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:51:32.383  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:51:32.387  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:51:32.390  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:51:32.393  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:51:32.396  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:51:32.399 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:51:32.402 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:51:32.405 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:51:32.413 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:51:32.419 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:51:32.424 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:51:32.426 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:51:32.428 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:51:32.430 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:51:32.433 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:51:32.436 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:51:32.441 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:51:32.444 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:51:32.448  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:51:32.452  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 2
+2017-11-15 19:51:32.457 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:51:32.460 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f573, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:51:32.664 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f573, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-15 19:51:33.168 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f573, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:51:36.172  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:51:37.173 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:51:37.175 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:51:37.178  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:51:37.181 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:53:03.288  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:53:03.292  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:53:03.295  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:53:03.297  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:53:03.300  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:53:03.302 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:53:03.306 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:53:03.309 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:53:03.312 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:53:03.315 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:53:03.319  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:53:03.322  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:53:03.325  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:53:03.328  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:53:03.332  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:53:03.335 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:53:03.337 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:53:03.341 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:53:03.349 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:53:03.355 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:53:03.360 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:53:03.363 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:53:03.365 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:53:03.367 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:53:03.370 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:53:03.372 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:53:03.378 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:53:03.381 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:53:03.384  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:53:03.389  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:53:03.393 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:53:03.397 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:53:03.601 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:53:04.104 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:53:07.108  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:53:08.109 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:53:08.111 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:53:08.114  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:53:08.117 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:56:25.262  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:56:25.266  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:56:25.269  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:56:25.271  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:56:25.273  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:56:25.276 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:56:25.280 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:56:25.283 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:56:25.287 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:56:25.290 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:56:25.293  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:56:25.297  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:56:25.301  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:56:25.304  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:56:25.307  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:56:25.311 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:56:25.314 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:56:25.318 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:56:25.327 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:56:25.333 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:56:25.338 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:56:25.341 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:56:25.343 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:56:25.345 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:56:25.349 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:56:25.351 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:56:25.357 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:56:25.360 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:56:25.363  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:56:25.369  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:56:25.373 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:56:25.377 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:56:25.581 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:56:26.084 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:56:29.089  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:56:30.090 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:56:30.092 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:56:30.095  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:56:30.098 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:56:36.022  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:56:36.026  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:56:36.029  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:56:36.031  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:56:36.034  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:56:36.036 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:56:36.040 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:56:36.043 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:56:36.046 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:56:36.050 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:56:36.053  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:56:36.057  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:56:36.060  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:56:36.063  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:56:36.067  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:56:36.070 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:56:36.073 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:56:36.077 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:56:36.085 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:56:36.090 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:56:36.095 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:56:36.098 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:56:36.100 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:56:36.102 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:56:36.105 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:56:36.108 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:56:36.114 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:56:36.117 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:56:36.120  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:56:36.125  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:56:36.129 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:56:36.133 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:56:36.337 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-15 19:56:36.840 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:56:39.844  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:56:40.846 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:56:40.848 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:56:40.851  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:56:40.854 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:56:43.887  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:56:43.891  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:56:43.894  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:56:43.896  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:56:43.899  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:56:43.902 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:56:43.905 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:56:43.909 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:56:43.912 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:56:43.915 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:56:43.919  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:56:43.922  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:56:43.925  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:56:43.929  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:56:43.932  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:56:43.936 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:56:43.939 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:56:43.942 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:56:43.950 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:56:43.956 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:56:43.961 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:56:43.963 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:56:43.966 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:56:43.968 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:56:43.971 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:56:43.974 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:56:43.980 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:56:43.983 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:56:43.986  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:56:43.991  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:56:43.995 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:56:43.999 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:56:44.203 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-15 19:56:44.706 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-15 19:56:47.710  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:56:48.712 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:56:48.714 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:56:48.717  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:56:48.720 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-15 19:57:12.399  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-15 19:57:12.403  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-15 19:57:12.406  INFO root [105]  - Version 1.1.0.0
+2017-11-15 19:57:12.408  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-15 19:57:12.411  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-15 19:57:12.413 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-15 19:57:12.417 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-15 19:57:12.420 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-15 19:57:12.423 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-15 19:57:12.427 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-15 19:57:12.430  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-15 19:57:12.434  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-15 19:57:12.437  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-15 19:57:12.440  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-15 19:57:12.444  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-15 19:57:12.447 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-15 19:57:12.450 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-15 19:57:12.454 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-15 19:57:12.461 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-15 19:57:12.467 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-15 19:57:12.472 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-15 19:57:12.474 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-15 19:57:12.476 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-15 19:57:12.479 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-15 19:57:12.482 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-15 19:57:12.485 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-15 19:57:12.490 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-15 19:57:12.493 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-15 19:57:12.496  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-15 19:57:12.501  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-15 19:57:12.505 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-15 19:57:12.509 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-15 19:57:12.713 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-15 19:57:13.216 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 15 8c 9b ff
+2017-11-15 19:57:16.220  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-15 19:57:17.222 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-15 19:57:17.224 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-15 19:57:17.227  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-15 19:57:17.230 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:36:05.707  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:36:05.711  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:36:05.714  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:36:05.716  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:36:05.719  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:36:05.722 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:36:05.725 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:36:05.728 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:36:05.731 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:36:05.735 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:36:05.738  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:36:05.741  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:36:05.745  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:36:05.748  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:36:05.751  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:36:05.755 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:36:05.758 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:36:05.761 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:36:05.769 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:36:05.774 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:36:05.780 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:36:05.782 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:36:05.784 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:36:05.786 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:36:05.789 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:36:05.792 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:36:05.798 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:36:05.801 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:36:05.804  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:36:05.808  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:36:05.813 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:36:05.816 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:36:06.020 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-16 09:36:06.523 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:36:09.526  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:36:10.528 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:36:10.530 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:36:10.533  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:36:10.536 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:37:56.500  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:37:56.504  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:37:56.507  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:37:56.509  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:37:56.511  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:37:56.514 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:37:56.518 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:37:56.521 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:37:56.524 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:37:56.527 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:37:56.531  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:37:56.534  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:37:56.537  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:37:56.541  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:37:56.544  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:37:56.548 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:37:56.550 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:37:56.554 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:37:56.562 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:37:56.568 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:37:56.573 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:37:56.575 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:37:56.577 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:37:56.579 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:37:56.583 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:37:56.585 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:37:56.591 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:37:56.594 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:37:56.597  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:37:56.602  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:37:56.606 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:37:56.610 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:37:56.814 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-16 09:37:57.317 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:38:00.320  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:38:01.322 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:38:01.324 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:38:01.327  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:38:01.330 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:38:03.038  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:38:03.042  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:38:03.045  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:38:03.047  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:38:03.050  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:38:03.052 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:38:03.056 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:38:03.059 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:38:03.062 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:38:03.066 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:38:03.069  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:38:03.072  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:38:03.076  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:38:03.079  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:38:03.082  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:38:03.086 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:38:03.089 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:38:03.092 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:38:03.100 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:38:03.106 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:38:03.111 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:38:03.113 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:38:03.115 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:38:03.117 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:38:03.121 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:38:03.123 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:38:03.129 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:38:03.132 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:38:03.135  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:38:03.139  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:38:03.144 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:38:03.147 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:38:03.351 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-16 09:38:03.856 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:38:06.859  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:38:07.861 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:38:07.863 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:38:07.866  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:38:07.869 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:38:13.521  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:38:13.525  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:38:13.528  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:38:13.530  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:38:13.532  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:38:13.535 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:38:13.538 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:38:13.542 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:38:13.545 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:38:13.548 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:38:13.552  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:38:13.555  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:38:13.558  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:38:13.561  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:38:13.565  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:38:13.568 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:38:13.571 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:38:13.574 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:38:13.582 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:38:13.588 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:38:13.593 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:38:13.595 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:38:13.597 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:38:13.599 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:38:13.603 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:38:13.605 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:38:13.611 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:38:13.614 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:38:13.617  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:38:13.621  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:38:13.626 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:38:13.629 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:38:13.834 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-16 09:38:14.337 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:38:17.340  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:38:18.342 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:38:18.344 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:38:18.347  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:38:18.350 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:38:25.641  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:38:25.644  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:38:25.647  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:38:25.649  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:38:25.652  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:38:25.655 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:38:25.658 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:38:25.661 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:38:25.665 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:38:25.668 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:38:25.671  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:38:25.674  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:38:25.678  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:38:25.681  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:38:25.684  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:38:25.688 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:38:25.690 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:38:25.694 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:38:25.701 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:38:25.707 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:38:25.712 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:38:25.714 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:38:25.717 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:38:25.719 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:38:25.722 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:38:25.725 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:38:25.730 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:38:25.733 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:38:25.736  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:38:25.741  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:38:25.745 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:38:25.748 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:38:25.952 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-16 09:38:26.455 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:38:29.458  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:38:30.460 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:38:30.462 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:38:30.465  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:38:30.467 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:39:45.393  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:39:45.397  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:39:45.400  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:39:45.402  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:39:45.404  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:39:45.407 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:39:45.410 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:39:45.413 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:39:45.416 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:39:45.419 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:39:45.422  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:39:45.425  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:39:45.428  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:39:45.431  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:39:45.434  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:39:45.437 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:39:45.439 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:39:45.443 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:39:45.450 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:39:45.456 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:39:45.461 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:39:45.463 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:39:45.465 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:39:45.467 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:39:45.470 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:39:45.472 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:39:45.478 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:39:45.480 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:39:45.484  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:39:45.488  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:39:45.492 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:39:45.496 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:39:45.699 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-16 09:39:46.202 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 15 8c 9b ff
+2017-11-16 09:39:49.205  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:39:50.207 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:39:50.209 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:39:50.212  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:39:50.214 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:47:15.428  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:47:15.432  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:47:15.435  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:47:15.437  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:47:15.440  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:47:15.442 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:47:15.445 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:47:15.448 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:47:15.451 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:47:15.454 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:47:15.457  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:47:15.460  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:47:15.463  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:47:15.466  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:47:15.469  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:47:15.472 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:47:15.475 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:47:15.478 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:47:15.485 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:47:15.491 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:47:15.496 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:47:15.499 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:47:15.501 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:47:15.502 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:47:15.505 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:47:15.508 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:47:15.513 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:47:15.516 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:47:15.519  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:47:15.524  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:47:15.528 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:47:15.531 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:47:15.635 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:47:15.639 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:47:15.642 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 40
+2017-11-16 09:47:15.746 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2017-11-16 09:47:15.849 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 68
+2017-11-16 09:47:15.952 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2017-11-16 09:47:16.055 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2017-11-16 09:47:16.558 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2017-11-16 09:47:17.561  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:47:18.563 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:47:18.565 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:47:18.568  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:47:18.570 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:47:37.201  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:47:37.205  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:47:37.208  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:47:37.210  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:47:37.212  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:47:37.215 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:47:37.218 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:47:37.221 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:47:37.224 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:47:37.227 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:47:37.230  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:47:37.233  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:47:37.236  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:47:37.239  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:47:37.242  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:47:37.245 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:47:37.247 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:47:37.251 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:47:37.258 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:47:37.264 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:47:37.268 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:47:37.271 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:47:37.272 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:47:37.274 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:47:37.277 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:47:37.280 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:47:37.285 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:47:37.288 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:47:37.291  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:47:37.296  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:47:37.300 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:47:37.303 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:47:37.407 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:47:37.410 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:47:37.413 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 40
+2017-11-16 09:47:37.517 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 57
+2017-11-16 09:47:37.620 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2017-11-16 09:47:37.723 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 63
+2017-11-16 09:47:37.826 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 63
+2017-11-16 09:47:38.330 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3b 10 12 c4 4d ff
+2017-11-16 09:47:39.333  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:47:40.335 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:47:40.337 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:47:40.339  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:47:40.342 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:47:46.312  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:47:46.316  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:47:46.319  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:47:46.320  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:47:46.323  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:47:46.325 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:47:46.328 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:47:46.331 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:47:46.334 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:47:46.337 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:47:46.340  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:47:46.343  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:47:46.346  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:47:46.349  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:47:46.352  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:47:46.355 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:47:46.357 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:47:46.360 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:47:46.368 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:47:46.373 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:47:46.378 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:47:46.381 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:47:46.382 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:47:46.384 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:47:46.387 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:47:46.390 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:47:46.395 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:47:46.398 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:47:46.401  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:47:46.405  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:47:46.410 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:47:46.413 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:47:46.516 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:47:46.519 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:47:46.522 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 40
+2017-11-16 09:47:46.626 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 57
+2017-11-16 09:47:46.729 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2017-11-16 09:47:46.832 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 63
+2017-11-16 09:47:46.935 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 63
+2017-11-16 09:47:47.438 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2017-11-16 09:47:48.441  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:47:49.443 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:47:49.445 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:47:49.448  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:47:49.450 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:47:57.105  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:47:57.109  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:47:57.112  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:47:57.114  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:47:57.116  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:47:57.118 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:47:57.122 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:47:57.124 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:47:57.127 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:47:57.130 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:47:57.133  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:47:57.137  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:47:57.139  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:47:57.143  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:47:57.146  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:47:57.149 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:47:57.151 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:47:57.154 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:47:57.162 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:47:57.167 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:47:57.172 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:47:57.174 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:47:57.176 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:47:57.178 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:47:57.181 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:47:57.184 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:47:57.189 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:47:57.192 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:47:57.195  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:47:57.199  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:47:57.204 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:47:57.207 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:47:57.311 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:47:57.314 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:47:57.317 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 40
+2017-11-16 09:47:57.421 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2017-11-16 09:47:57.524 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2017-11-16 09:47:57.627 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 63
+2017-11-16 09:47:57.730 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 63
+2017-11-16 09:47:58.233 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2017-11-16 09:47:59.236  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:48:00.238 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:48:00.240 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:48:00.243  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:48:00.245 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:48:44.991  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:48:44.995  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:48:44.998  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:48:45.000  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:48:45.002  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:48:45.005 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:48:45.008 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:48:45.011 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:48:45.014 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:48:45.017 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:48:45.020  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:48:45.023  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:48:45.026  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:48:45.029  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:48:45.032  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:48:45.035 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:48:45.037 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:48:45.041 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:48:45.048 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:48:45.054 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:48:45.059 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:48:45.061 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:48:45.063 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:48:45.065 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:48:45.068 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:48:45.070 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:48:45.075 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:48:45.078 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:48:45.082  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:48:45.087  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:48:45.091 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:48:45.094 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:48:45.198 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:48:45.201 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:48:45.204 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 40
+2017-11-16 09:48:45.308 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2017-11-16 09:48:45.411 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 68
+2017-11-16 09:48:45.514 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2017-11-16 09:48:45.618 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2017-11-16 09:48:46.121 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2017-11-16 09:48:47.124  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:48:48.126 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:48:48.128 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:48:48.131  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:48:48.133 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:49:17.869  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:49:17.873  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:49:17.876  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:49:17.878  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:49:17.880  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:49:17.883 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:49:17.886 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:49:17.889 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:49:17.892 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:49:17.895 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:49:17.898  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:49:17.901  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:49:17.904  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:49:17.907  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:49:17.910  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:49:17.913 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:49:17.915 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:49:17.919 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:49:17.926 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:49:17.932 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:49:17.937 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:49:17.939 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:49:17.941 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:49:17.943 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:49:17.946 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:49:17.948 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:49:17.953 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:49:17.956 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:49:17.960  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:49:17.964  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:49:17.968 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:49:17.972 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:49:18.175 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 15 8c 9b fe
+2017-11-16 09:49:18.678 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:49:19.681  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:49:20.683 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:49:20.685 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:49:20.688  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:49:20.690 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:49:27.325  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:49:27.329  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:49:27.332  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:49:27.334  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:49:27.336  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:49:27.339 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:49:27.342 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:49:27.345 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:49:27.348 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:49:27.351 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:49:27.354  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:49:27.357  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:49:27.360  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:49:27.363  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:49:27.366  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:49:27.369 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:49:27.372 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:49:27.375 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:49:27.382 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:49:27.388 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:49:27.393 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:49:27.395 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:49:27.397 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:49:27.399 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:49:27.402 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:49:27.405 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:49:27.410 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:49:27.413 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:49:27.416  INFO AbtPlugin_impl [2289]  - A conversion factor of 1 was found on file: .\AbtConfig.ini
+2017-11-16 09:49:27.420  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:49:27.424 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:49:27.428 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 15 8c 9b fd
+2017-11-16 09:49:27.631 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 15 8c 9b fe
+2017-11-16 09:49:28.134 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 15 8c 9b ff
+2017-11-16 09:49:29.137  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:49:30.138 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:49:30.141 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:49:30.143  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:49:30.146 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:51:14.077  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:51:14.081  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:51:14.084  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:51:14.086  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:51:14.088  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:51:14.091 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:51:14.094 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:51:14.097 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:51:14.100 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:51:14.103 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:51:14.106  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:51:14.109  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:51:14.112  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:51:14.115  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:51:14.118  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:51:14.121 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:51:14.124 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:51:14.127 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:51:14.134 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:51:14.140 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:51:14.146 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:51:14.148 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:51:14.150 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:51:14.152 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:51:14.155 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:51:14.157 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:51:14.162 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:51:14.165 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:51:14.169  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:51:14.173  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:51:14.178 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:51:14.181 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:51:14.284 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:51:14.287 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:51:14.290 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 40
+2017-11-16 09:51:14.394 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2017-11-16 09:51:14.497 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2017-11-16 09:51:14.601 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 63
+2017-11-16 09:51:14.705 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 63
+2017-11-16 09:51:15.208 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2017-11-16 09:51:16.211  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:51:17.213 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:51:17.215 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:51:17.218  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:51:17.220 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2017-11-16 09:51:50.496  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2017-11-16 09:51:50.500  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2017-11-16 09:51:50.503  INFO root [105]  - Version 1.1.0.0
+2017-11-16 09:51:50.505  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2017-11-16 09:51:50.507  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2017-11-16 09:51:50.509 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2017-11-16 09:51:50.513 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2017-11-16 09:51:50.515 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2017-11-16 09:51:50.518 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2017-11-16 09:51:50.521 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2017-11-16 09:51:50.524  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2017-11-16 09:51:50.528  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2017-11-16 09:51:50.531  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2017-11-16 09:51:50.534  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2017-11-16 09:51:50.537  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2017-11-16 09:51:50.540 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2017-11-16 09:51:50.542 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2017-11-16 09:51:50.546 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2017-11-16 09:51:50.553 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2017-11-16 09:51:50.559 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2017-11-16 09:51:50.564 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2017-11-16 09:51:50.566 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2017-11-16 09:51:50.568 DEBUG CANHardware [160]  - m_hwType 0: 21
+2017-11-16 09:51:50.569 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2017-11-16 09:51:50.572 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2017-11-16 09:51:50.575 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2017-11-16 09:51:50.581 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2017-11-16 09:51:50.584 DEBUG CANHardware [553]  - Receive was set up successfully.
+2017-11-16 09:51:50.587  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2017-11-16 09:51:50.592  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2017-11-16 09:51:50.596 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2017-11-16 09:51:50.599 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2017-11-16 09:51:50.703 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2017-11-16 09:51:50.706 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2017-11-16 09:51:50.709 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 40
+2017-11-16 09:51:50.813 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 57
+2017-11-16 09:51:50.917 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 68
+2017-11-16 09:51:51.020 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2017-11-16 09:51:51.123 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2017-11-16 09:51:51.626 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2017-11-16 09:51:52.629  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2017-11-16 09:51:53.631 DEBUG VxlLib [173]  - Unloading library successful!
+2017-11-16 09:51:53.633 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2017-11-16 09:51:53.636  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2017-11-16 09:51:53.638 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-02-27 16:01:27.842  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-02-27 16:01:27.851  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-02-27 16:01:27.857  INFO root [105]  - Version 1.1.0.0
+2018-02-27 16:01:27.860  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-02-27 16:01:27.864  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-02-27 16:01:27.869 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-02-27 16:01:27.875 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-02-27 16:01:27.881 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-02-27 16:01:27.887 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-02-27 16:01:27.893 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-02-27 16:01:27.899  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-02-27 16:01:27.905  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-02-27 16:01:27.911  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-02-27 16:01:27.917  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-02-27 16:01:27.923  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-02-27 16:01:27.929 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-02-27 16:01:27.933 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-02-27 16:01:27.940 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-02-27 16:01:27.950 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-02-27 16:01:27.958 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-02-27 16:01:27.966 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-02-27 16:01:27.970 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-02-27 16:01:27.973 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-02-27 16:01:27.977 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-02-27 16:01:27.983 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-02-27 16:01:27.988 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-02-27 16:01:27.995 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-02-27 16:01:28.000 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-02-27 16:01:28.006  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-02-27 16:01:28.014  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-02-27 16:01:28.023 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-02-27 16:01:28.030 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-02-27 16:01:28.137 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-02-27 16:01:28.144 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-02-27 16:01:28.150 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-02-27 16:01:28.258 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2018-02-27 16:01:28.365 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2018-02-27 16:01:28.472 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:28.579 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:29.086 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-02-27 16:01:30.093  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-02-27 16:01:31.095 DEBUG VxlLib [173]  - Unloading library successful!
+2018-02-27 16:01:31.099 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-02-27 16:01:31.104  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-02-27 16:01:31.109 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-02-27 16:01:38.187  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-02-27 16:01:38.195  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-02-27 16:01:38.200  INFO root [105]  - Version 1.1.0.0
+2018-02-27 16:01:38.203  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-02-27 16:01:38.208  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-02-27 16:01:38.212 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-02-27 16:01:38.219 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-02-27 16:01:38.224 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-02-27 16:01:38.230 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-02-27 16:01:38.236 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-02-27 16:01:38.242  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-02-27 16:01:38.249  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-02-27 16:01:38.254  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-02-27 16:01:38.260  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-02-27 16:01:38.266  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-02-27 16:01:38.273 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-02-27 16:01:38.277 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-02-27 16:01:38.284 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-02-27 16:01:38.294 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-02-27 16:01:38.302 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-02-27 16:01:38.309 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-02-27 16:01:38.313 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-02-27 16:01:38.316 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-02-27 16:01:38.319 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-02-27 16:01:38.325 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-02-27 16:01:38.329 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-02-27 16:01:38.336 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-02-27 16:01:38.342 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-02-27 16:01:38.347  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-02-27 16:01:38.355  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-02-27 16:01:38.363 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-02-27 16:01:38.370 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-02-27 16:01:38.477 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-02-27 16:01:38.483 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-02-27 16:01:38.490 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-02-27 16:01:38.597 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 57
+2018-02-27 16:01:38.704 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2018-02-27 16:01:38.811 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:38.918 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:39.425 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-02-27 16:01:40.432  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-02-27 16:01:41.433 DEBUG VxlLib [173]  - Unloading library successful!
+2018-02-27 16:01:41.437 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-02-27 16:01:41.442  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-02-27 16:01:41.446 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-02-27 16:01:46.833  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-02-27 16:01:46.841  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-02-27 16:01:46.846  INFO root [105]  - Version 1.1.0.0
+2018-02-27 16:01:46.849  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-02-27 16:01:46.853  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-02-27 16:01:46.858 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-02-27 16:01:46.864 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-02-27 16:01:46.869 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-02-27 16:01:46.875 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-02-27 16:01:46.881 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-02-27 16:01:46.886  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-02-27 16:01:46.893  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-02-27 16:01:46.898  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-02-27 16:01:46.904  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-02-27 16:01:46.910  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-02-27 16:01:46.916 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-02-27 16:01:46.920 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-02-27 16:01:46.927 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-02-27 16:01:46.936 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-02-27 16:01:46.944 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-02-27 16:01:46.951 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-02-27 16:01:46.955 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-02-27 16:01:46.958 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-02-27 16:01:46.961 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-02-27 16:01:46.967 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-02-27 16:01:46.971 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-02-27 16:01:46.978 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-02-27 16:01:46.983 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-02-27 16:01:46.989  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-02-27 16:01:46.996  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-02-27 16:01:47.004 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-02-27 16:01:47.011 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-02-27 16:01:47.118 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-02-27 16:01:47.124 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-02-27 16:01:47.130 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-02-27 16:01:47.237 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2018-02-27 16:01:47.344 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 68
+2018-02-27 16:01:47.451 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:47.558 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:48.065 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3e 10 12 c4 4d ff
+2018-02-27 16:01:49.072  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-02-27 16:01:50.074 DEBUG VxlLib [173]  - Unloading library successful!
+2018-02-27 16:01:50.078 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-02-27 16:01:50.083  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-02-27 16:01:50.087 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-02-27 16:01:50.753  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-02-27 16:01:50.761  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-02-27 16:01:50.767  INFO root [105]  - Version 1.1.0.0
+2018-02-27 16:01:50.770  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-02-27 16:01:50.774  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-02-27 16:01:50.778 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-02-27 16:01:50.784 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-02-27 16:01:50.789 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-02-27 16:01:50.795 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-02-27 16:01:50.801 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-02-27 16:01:50.807  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-02-27 16:01:50.813  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-02-27 16:01:50.818  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-02-27 16:01:50.824  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-02-27 16:01:50.830  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-02-27 16:01:50.836 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-02-27 16:01:50.840 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-02-27 16:01:50.847 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-02-27 16:01:50.857 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-02-27 16:01:50.864 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-02-27 16:01:50.872 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-02-27 16:01:50.875 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-02-27 16:01:50.878 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-02-27 16:01:50.882 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-02-27 16:01:50.887 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-02-27 16:01:50.892 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-02-27 16:01:50.899 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-02-27 16:01:50.904 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-02-27 16:01:50.910  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-02-27 16:01:50.917  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-02-27 16:01:50.926 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-02-27 16:01:50.932 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-02-27 16:01:51.039 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-02-27 16:01:51.045 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-02-27 16:01:51.052 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-02-27 16:01:51.159 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 57
+2018-02-27 16:01:51.266 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2018-02-27 16:01:51.373 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:51.480 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-02-27 16:01:51.987 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-02-27 16:01:52.994  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-02-27 16:01:53.997 DEBUG VxlLib [173]  - Unloading library successful!
+2018-02-27 16:01:54.001 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-02-27 16:01:54.006  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-02-27 16:01:54.010 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-15 17:44:35.825  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-15 17:44:35.831  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-15 17:44:35.835  INFO root [105]  - Version 1.1.0.0
+2018-03-15 17:44:35.838  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-15 17:44:35.842  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-15 17:44:35.846 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-15 17:44:35.850 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-15 17:44:35.855 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-15 17:44:35.859 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-15 17:44:35.864 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-15 17:44:35.869  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-15 17:44:35.873  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-15 17:44:35.878  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-15 17:44:35.882  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-15 17:44:35.887  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-15 17:44:35.892 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-15 17:44:35.895 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-15 17:44:35.900 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-15 17:44:35.909 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-15 17:44:35.916 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-15 17:44:35.921 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-15 17:44:35.924 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-15 17:44:35.927 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-15 17:44:35.930 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-15 17:44:35.934 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-15 17:44:35.938 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-15 17:44:35.944 ERROR CANHardware [249]  - Couldn't set the output mode for the channel. (m_mask = 1, status = 255)
+2018-03-15 17:44:35.949 ERROR CANHardware [269]  - Couldn't set the channel parameter. (m_mask = 1, status = 255)
+2018-03-15 17:44:35.954 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-15 17:44:35.959 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-15 17:44:35.966  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-15 17:44:35.972  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-03-15 17:44:35.978 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-15 17:44:35.983 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-03-15 17:44:36.088 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-15 17:44:36.093 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-15 17:44:36.098 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-03-15 17:44:36.203 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 57
+2018-03-15 17:44:36.308 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 68
+2018-03-15 17:44:36.413 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-03-15 17:44:36.518 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-03-15 17:44:37.023 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-03-15 17:44:38.028  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-15 17:44:39.030 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-15 17:44:39.033 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-15 17:44:39.037  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-15 17:44:39.041 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-15 17:45:20.605  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-15 17:45:20.612  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-15 17:45:20.617  INFO root [105]  - Version 1.1.0.0
+2018-03-15 17:45:20.620  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-15 17:45:20.623  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-15 17:45:20.627 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-15 17:45:20.633 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-15 17:45:20.638 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-15 17:45:20.643 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-15 17:45:20.648 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-15 17:45:20.653  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-15 17:45:20.659  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-15 17:45:20.664  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-15 17:45:20.669  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-15 17:45:20.674  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-15 17:45:20.680 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-15 17:45:20.683 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-15 17:45:20.689 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-15 17:45:20.699 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-15 17:45:20.706 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-15 17:45:20.713 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-15 17:45:20.716 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-15 17:45:20.719 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-15 17:45:20.722 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-15 17:45:20.727 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-15 17:45:20.731 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-15 17:45:20.738 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-15 17:45:20.743 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-15 17:45:20.748  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-15 17:45:20.755  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-03-15 17:45:20.762 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-15 17:45:20.768 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-03-15 17:45:20.875 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-15 17:45:20.881 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-15 17:45:20.887 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-03-15 17:45:20.993 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2018-03-15 17:45:21.099 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 68
+2018-03-15 17:45:21.205 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-03-15 17:45:21.311 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-03-15 17:45:21.817 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-03-15 17:45:22.823  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-15 17:45:23.825 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-15 17:45:23.829 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-15 17:45:23.833  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-15 17:45:23.837 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-15 18:19:33.369  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-15 18:19:33.377  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-15 18:19:33.382  INFO root [105]  - Version 1.1.0.0
+2018-03-15 18:19:33.385  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-15 18:19:33.389  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-15 18:19:33.393 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-15 18:19:33.399 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-15 18:19:33.404 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-15 18:19:33.410 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-15 18:19:33.415 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-15 18:19:33.421  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-15 18:19:33.427  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-15 18:19:33.432  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-15 18:19:33.438  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-15 18:19:33.443  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-15 18:19:33.449 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-15 18:19:33.453 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-15 18:19:33.460 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-15 18:19:33.470 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-15 18:19:33.477 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-15 18:19:33.484 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-15 18:19:33.487 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-15 18:19:33.491 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-15 18:19:33.494 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-15 18:19:33.499 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-15 18:19:33.504 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-15 18:19:33.510 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-15 18:19:33.515 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-15 18:19:33.521  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-15 18:19:33.528  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-03-15 18:19:33.537 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-15 18:19:33.543 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-03-15 18:19:33.650 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-15 18:19:33.656 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-15 18:19:33.662 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 40
+2018-03-15 18:19:33.769 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 57
+2018-03-15 18:19:33.876 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2018-03-15 18:19:33.983 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 63
+2018-03-15 18:19:34.090 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 12 c4 4d 63
+2018-03-15 18:19:34.597 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-03-15 18:19:35.604  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-15 18:19:36.605 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-15 18:19:36.609 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-15 18:19:36.614  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-15 18:19:36.619 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-20 13:11:58.322  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-20 13:11:58.327  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-20 13:11:58.331  INFO root [105]  - Version 1.1.0.0
+2018-03-20 13:11:58.333  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-20 13:11:58.336  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-20 13:11:58.339 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-20 13:11:58.343 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-20 13:11:58.347 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-20 13:11:58.351 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-20 13:11:58.355 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-20 13:11:58.359  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-20 13:11:58.363  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-20 13:11:58.367  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-20 13:11:58.371  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-20 13:11:58.375  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-20 13:11:58.380 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-20 13:11:58.383 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-20 13:11:58.388 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-20 13:11:58.397 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-20 13:11:58.404 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-20 13:11:58.410 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-20 13:11:58.413 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-20 13:11:58.416 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-20 13:11:58.419 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-20 13:11:58.423 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-20 13:11:58.427 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-20 13:11:58.433 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-20 13:11:58.438 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-20 13:11:58.445  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-20 13:11:58.451  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 355, y = 155, duration = 500, deviceIndex = 1
+2018-03-20 13:11:58.457 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-20 13:11:58.462 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 12 c4 4d 00
+2018-03-20 13:11:58.567 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-20 13:11:58.571 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-20 13:11:58.576 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 12 c4 4d 40
+2018-03-20 13:11:58.681 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 12 c4 4d 57
+2018-03-20 13:11:58.786 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 68
+2018-03-20 13:11:58.891 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-03-20 13:11:58.996 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 12 c4 4d 63
+2018-03-20 13:11:59.501 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 12 c4 4d ff
+2018-03-20 13:12:00.506  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-20 13:12:01.508 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-20 13:12:01.511 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-20 13:12:01.515  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-20 13:12:01.518 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-21 11:16:43.261  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-21 11:16:43.270  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-21 11:16:43.275  INFO root [105]  - Version 1.1.0.0
+2018-03-21 11:16:43.278  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-21 11:16:43.282  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-21 11:16:43.287 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-21 11:16:43.293 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-21 11:16:43.298 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-21 11:16:43.304 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-21 11:16:43.310 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-21 11:16:43.316  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-21 11:16:43.322  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-21 11:16:43.328  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-21 11:16:43.334  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-21 11:16:43.340  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-21 11:16:43.346 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-21 11:16:43.350 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-21 11:16:43.357 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-21 11:16:43.367 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-21 11:16:43.375 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-21 11:16:43.382 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-21 11:16:43.386 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-21 11:16:43.389 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-21 11:16:43.392 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-21 11:16:43.398 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-21 11:16:43.403 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-21 11:16:43.410 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-21 11:16:43.415 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-21 11:16:43.424  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-21 11:16:43.432  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 1147, y = 311, duration = 500, deviceIndex = 1
+2018-03-21 11:16:43.441 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-21 11:16:43.448 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 18 f4 9b 00
+2018-03-21 11:16:43.556 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-21 11:16:43.562 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-21 11:16:43.569 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 18 f4 9b 40
+2018-03-21 11:16:43.677 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 57
+2018-03-21 11:16:43.784 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 68
+2018-03-21 11:16:43.891 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 18 f4 9b 63
+2018-03-21 11:16:43.998 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 18 f4 9b 63
+2018-03-21 11:16:44.505 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3e 10 18 f4 9b ff
+2018-03-21 11:16:45.512  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-21 11:16:46.513 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-21 11:16:46.517 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-21 11:16:46.522  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-21 11:16:46.526 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-21 11:16:48.213  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-21 11:16:48.222  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-21 11:16:48.227  INFO root [105]  - Version 1.1.0.0
+2018-03-21 11:16:48.230  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-21 11:16:48.234  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-21 11:16:48.238 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-21 11:16:48.245 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-21 11:16:48.250 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-21 11:16:48.256 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-21 11:16:48.261 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-21 11:16:48.267  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-21 11:16:48.274  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-21 11:16:48.279  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-21 11:16:48.285  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-21 11:16:48.291  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-21 11:16:48.297 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-21 11:16:48.301 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-21 11:16:48.308 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-21 11:16:48.318 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-21 11:16:48.326 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-21 11:16:48.333 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-21 11:16:48.337 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-21 11:16:48.340 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-21 11:16:48.343 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-21 11:16:48.349 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-21 11:16:48.353 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-21 11:16:48.360 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-21 11:16:48.366 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-21 11:16:48.372  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-21 11:16:48.380  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 1147, y = 311, duration = 500, deviceIndex = 1
+2018-03-21 11:16:48.389 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-21 11:16:48.395 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 18 f4 9b 00
+2018-03-21 11:16:48.503 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-21 11:16:48.509 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-21 11:16:48.516 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 18 f4 9b 40
+2018-03-21 11:16:48.623 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 57
+2018-03-21 11:16:48.730 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 68
+2018-03-21 11:16:48.837 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 18 f4 9b 63
+2018-03-21 11:16:48.944 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 18 f4 9b 63
+2018-03-21 11:16:49.451 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3e 10 18 f4 9b ff
+2018-03-21 11:16:50.458  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-21 11:16:51.460 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-21 11:16:51.464 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-21 11:16:51.469  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-21 11:16:51.473 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-21 11:16:57.973  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-21 11:16:57.982  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-21 11:16:57.987  INFO root [105]  - Version 1.1.0.0
+2018-03-21 11:16:57.990  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-21 11:16:57.994  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-21 11:16:57.999 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-21 11:16:58.005 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-21 11:16:58.011 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-21 11:16:58.017 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-21 11:16:58.022 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-21 11:16:58.028  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-21 11:16:58.035  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-21 11:16:58.040  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-21 11:16:58.047  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-21 11:16:58.052  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-21 11:16:58.059 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-21 11:16:58.063 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-21 11:16:58.070 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-21 11:16:58.079 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-21 11:16:58.087 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-21 11:16:58.094 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-21 11:16:58.098 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-21 11:16:58.101 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-21 11:16:58.104 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-21 11:16:58.110 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-21 11:16:58.115 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-21 11:16:58.122 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-21 11:16:58.127 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-21 11:16:58.133  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-21 11:16:58.141  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 1147, y = 311, duration = 500, deviceIndex = 1
+2018-03-21 11:16:58.149 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-21 11:16:58.156 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 18 f4 9b 00
+2018-03-21 11:16:58.264 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-21 11:16:58.270 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-21 11:16:58.277 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 18 f4 9b 40
+2018-03-21 11:16:58.384 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 18 f4 9b 57
+2018-03-21 11:16:58.491 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 68
+2018-03-21 11:16:58.598 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 18 f4 9b 63
+2018-03-21 11:16:58.705 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0b 11 18 f4 9b 63
+2018-03-21 11:16:59.212 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3c 10 18 f4 9b ff
+2018-03-21 11:17:00.219  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-21 11:17:01.221 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-21 11:17:01.225 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-21 11:17:01.230  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-21 11:17:01.234 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.
+2018-03-21 13:13:01.616  WARN root [80]  - Logger config 'C:\Python27\log4cplus.properties' not found. Using default configuration.
+2018-03-21 13:13:01.624  INFO root [91]  - My working directory is 'D:\Temp\TA\AbtTouch'.
+2018-03-21 13:13:01.629  INFO root [105]  - Version 1.1.0.0
+2018-03-21 13:13:01.632  INFO AbtPlugin_impl [21]  - AbtPlugin Version 1.1.0.0
+2018-03-21 13:13:01.636  INFO AbtPlugin_impl [2119]  - AbtPlugin_impl::init called
+2018-03-21 13:13:01.640 DEBUG AbtPlugin_impl [2653]  - init: Parameter 0 is 'SerialNumber' = '26839' (long)
+2018-03-21 13:13:01.646 DEBUG AbtPlugin_impl [2653]  - init: Parameter 1 is 'Channel' = '1' (long)
+2018-03-21 13:13:01.652 DEBUG AbtPlugin_impl [2653]  - init: Parameter 2 is 'HardwareType' = '0' (long)
+2018-03-21 13:13:01.658 DEBUG AbtPlugin_impl [2653]  - init: Parameter 3 is 'audiConfig' = '1' (long)
+2018-03-21 13:13:01.663 DEBUG AbtPlugin_impl [2653]  - init: Parameter 4 is 'touchProtocol' = '0' (long)
+2018-03-21 13:13:01.669  INFO AbtPlugin_impl [2153]  - Parameter 'SerialNumber' was found with value = 26839.
+2018-03-21 13:13:01.675  INFO AbtPlugin_impl [2167]  - Parameter 'Channel' was found with value = 1.
+2018-03-21 13:13:01.681  INFO AbtPlugin_impl [2181]  - Parameter 'HardwareType' was found with value = 0.
+2018-03-21 13:13:01.686  INFO AbtPlugin_impl [2218]  - Parameter 'audiConfig' was found with value = 1.
+2018-03-21 13:13:01.692  INFO AbtPlugin_impl [2253]  - Parameter 'touchProtocol' was found with value = 0x00.
+2018-03-21 13:13:01.698 DEBUG CANHardware [81]  - CANHardware::setUp start ...
+2018-03-21 13:13:01.702 DEBUG CANHardware [82]  - Input-Parameter: serialNumber: 26839, channel: 1, hardwareType: 0
+2018-03-21 13:13:01.709 DEBUG VxlLib [88]  - Loading library 'vxlapi.dll'
+2018-03-21 13:13:01.719 DEBUG VxlLib [158]  - Loading library vxlapi.dll successful!
+2018-03-21 13:13:01.726 DEBUG CANHardware [102]  - CANHardware xlOpenDriver successful!
+2018-03-21 13:13:01.733 DEBUG CANHardware [158]  - serialNumber 0: 26839
+2018-03-21 13:13:01.737 DEBUG CANHardware [159]  - m_hwIndex 0: 0
+2018-03-21 13:13:01.740 DEBUG CANHardware [160]  - m_hwType 0: 21
+2018-03-21 13:13:01.743 DEBUG CANHardware [178]  - Automatically read Parameter: serialNumber = 26839.
+2018-03-21 13:13:01.749 DEBUG CANHardware [181]  - CANHardware::setUp successful!
+2018-03-21 13:13:01.754 DEBUG CANHardware [198]  - CANHardware::setUpChannel start ...
+2018-03-21 13:13:01.761 DEBUG CANHardware [273]  - CANHardware::setUpChannel successful!
+2018-03-21 13:13:01.766 DEBUG CANHardware [553]  - Receive was set up successfully.
+2018-03-21 13:13:01.772  INFO AbtPlugin_impl [2289]  - A conversion factor of 2 was found on file: .\AbtConfig.ini
+2018-03-21 13:13:01.779  INFO AbtPlugin_impl [951]  - AbtPlugin_impl::touchEvent2 called: x = 1147, y = 311, duration = 500, deviceIndex = 1
+2018-03-21 13:13:01.787 DEBUG AbtPlugin_impl [2544]  - AbtPlugin_impl::setRemoteControlMode called: request = true
+2018-03-21 13:13:01.794 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 00 11 18 f4 9b 00
+2018-03-21 13:13:01.901 DEBUG AbtPlugin_impl [2714]  - parameter für die Berechnung: Force: 99, numberCoords: 5
+2018-03-21 13:13:01.907 DEBUG AbtPlugin_impl [2716]  - square function for touch: f(x) = -3.000000x² + 38.000000x
+2018-03-21 13:13:01.913 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0c 11 18 f4 9b 40
+2018-03-21 13:13:02.021 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 57
+2018-03-21 13:13:02.128 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 09 11 18 f4 9b 68
+2018-03-21 13:13:02.235 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 63
+2018-03-21 13:13:02.342 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 0a 11 18 f4 9b 63
+2018-03-21 13:13:02.849 DEBUG CANHardware [345]  - Sending Can-Msg: Id = 0x97f8f273, DLC = 8, pData = 07 a0 3e 10 18 f4 9b ff
+2018-03-21 13:13:03.856  INFO AbtPlugin_impl [2317]  - AbtPlugin_impl::deinit called
+2018-03-21 13:13:04.857 DEBUG VxlLib [173]  - Unloading library successful!
+2018-03-21 13:13:04.861 DEBUG CANHardware [324]  - CANHardware::shutDown successful!
+2018-03-21 13:13:04.865  INFO AbtPlugin_impl [2518]  - AbtPlugin_impl::exit called
+2018-03-21 13:13:04.870 DEBUG PluginBaseClass [114]  - PlateauBasicLib::PluginBaseClass<class POA_Plateau::KeyPanel>::shutdown called.

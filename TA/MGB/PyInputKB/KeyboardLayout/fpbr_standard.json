@@ -1,0 +1,35 @@
+{
+    "bottom_row": {
+        "height": 200
+    },
+    "buttons": [
+        {
+            "button": {
+                "type": "HWR",
+                "label": "HWR",
+                "width": 168
+            }
+        },
+        {
+            "button": {
+                "type": "LANGUAGE_SWITCH",
+                "label": "DE",
+                "width": 168
+            }
+        },
+        {
+            "button": {
+                "type": "SPACE",
+                "label": "Leertaste",
+                "widthRatio": 3.5
+            }
+        },
+        {
+            "button": {
+                "type": "SPECIAL_CHARACTER",
+                "label": "#+=",
+                "width": 168
+            }
+        }
+    ]
+}

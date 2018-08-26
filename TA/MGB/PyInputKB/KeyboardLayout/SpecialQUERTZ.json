@@ -1,0 +1,206 @@
+{
+    "keyboard":
+    {
+        "rowHeight": 110
+    },
+    "rows":
+    [
+        {
+            "keys":
+            [
+                {
+                    "key": "PLACEHOLDER"
+                },
+                {
+                    "key": "1"
+                },
+                {
+                    "key": "2"
+                },
+                {
+                    "key": "3"
+                },
+                {
+                    "key": "4"
+                },
+                {
+                    "key": "5"
+                },
+                {
+                    "key": "6"
+                },
+                {
+                    "key": "7"
+                },
+                {
+                    "key": "8"
+                },
+                {
+                    "key": "9"
+                },
+                {
+                    "key": "0"
+                }
+            ],
+            "config":
+            [
+                {
+                    "alignment": "LEFT"
+                }
+            ]
+        },
+        {
+            "keys":
+            [
+                {
+                    "key": "Q"
+                },
+                {
+                    "key": "W"
+                },
+                {
+                    "key": "E",
+                    "subChars": "ÈÉÊËĒĖĘĚƏ"
+                },
+                {
+                    "key": "R",
+                    "subChars": "ŘŔ"
+                },
+                {
+                    "key": "T",
+                    "subChars": "ŢŤ"
+                },
+                {
+                    "key": "Z",
+                    "subChars": "ÝŸ"
+                },
+                {
+                    "key": "U",
+                    "subChars": "ÛÜÙÚŪŰŲŮ"
+                },
+                {
+                    "key": "I",
+                    "lowercase": "i",
+                    "subChars": "ÎÏÍĪĮİÌĨ",
+                    "subCharsLower": "îïíīįıìĩ"
+                },
+                {
+                    "key": "O",
+                    "subChars": "ÔÖÒÓŒÕØŐ"
+                },
+                {
+                    "key": "P"
+                },
+                {
+                    "key": "PLACEHOLDER"
+                }
+            ],
+            "config":
+            [
+                {
+                    "alignment": "LEFT"
+                }
+            ]
+        },
+        {
+            "keys":
+            [
+                {
+                    "key": "A",
+                    "subChars": "ÀÁÂÄÆÃÅĀĄĂ"
+                },
+                {
+                    "key": "S",
+                    "subChars": "ßŚŠŞ"
+                },
+                {
+                    "key": "D",
+                    "subChars": "ĎĐ"
+                },
+                {
+                    "key": "F"
+                },
+                {
+                    "key": "G",
+                    "subChars": "ĞĠĢ"
+                },
+                {
+                    "key": "H",
+                    "subChars": "Ħ"
+                },
+                {
+                    "key": "J"
+                },
+                {
+                    "key": "K",
+                    "subChars": "Ķ"
+                },
+                {
+                    "key": "L",
+                    "subChars": "ĻĽŁĹ"
+                },
+                {
+                    "key": "PLACEHOLDER"
+                },
+                {
+                    "key": "PLACEHOLDER"
+                }
+            ],
+            "config":
+            [
+                {
+                    "alignment": "LEFT"
+                }
+            ]
+        },
+        {
+            "keys":
+            [
+                {
+                    "key": "SHIFT",
+                    "keyWidthRatio": 2.0
+                },
+                {
+                    "key": "Y",
+                    "subChars": "ŽŹŻ"
+                },
+                {
+                    "key": "X"
+                },
+                {
+                    "key": "C",
+                    "subChars": "ÇĆČĊ"
+                },
+                {
+                    "key": "V"
+                },
+                {
+                    "key": "B"
+                },
+                {
+                    "key": "N",
+                    "subChars": "ÑŃŅŇ"
+                },
+                {
+                    "key": "M"
+                },
+                {
+                    "key": "PLACEHOLDER"
+                },
+                {
+                    "key": "PLACEHOLDER"
+                },
+                {
+                    "key": "BACKSPACE",
+                    "keyWidthRatio": 1
+                }
+            ],
+            "config":
+            [
+                {
+                    "alignment": "LEFT"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,551 @@
+[DEBUG 2018-04-23 18:32:06]This is debug message
+[INFO 2018-04-23 18:32:06]This is info message
+[WARNING 2018-04-23 18:32:06]This is warning message
+[ERROR 2018-04-23 18:32:06]This is error message
+[CRITICAL 2018-04-23 18:32:06]This is critical message
+[DEBUG 2018-04-23 18:33:58]This is debug message
+[INFO 2018-04-23 18:33:58]This is info message
+[WARNING 2018-04-23 18:33:58]This is warning message
+[ERROR 2018-04-23 18:33:58]This is error message
+[CRITICAL 2018-04-23 18:33:58]This is critical message
+[ERROR 2018-04-23 19:00:17]This is wrong
+[INFO 2018-04-23 19:01:26]TouchScreen is OK
+[INFO 2018-04-23 19:01:34]Keyinput initialization success
+[ERROR 2018-04-23 19:01:48]Failed!!! characters not found
+[INFO 2018-04-24 10:06:57]TouchScreen is OK
+[DEBUG 2018-04-24 10:06:57]It's in navi screen
+[INFO 2018-04-24 10:07:04]Keyinput initialization success
+[INFO 2018-04-24 10:07:23]TouchScreen is OK
+[INFO 2018-04-24 10:07:26]Keyinput initialization success
+[INFO 2018-04-24 10:07:37]TouchScreen is OK
+[DEBUG 2018-04-24 10:07:37]It's in navi screen
+[INFO 2018-04-24 10:07:40]Keyinput initialization success
+[ERROR 2018-04-24 10:07:54]Failed!!! characters not found
+[DEBUG 2018-04-24 10:07:55]Now it's in the navi screen
+[INFO 2018-04-24 10:09:20]TouchScreen is OK
+[INFO 2018-04-24 10:09:28]Keyinput initialization success
+[INFO 2018-04-24 10:09:43]TouchScreen is OK
+[INFO 2018-04-24 10:09:51]Keyinput initialization success
+[INFO 2018-04-24 10:11:31]TouchScreen is OK
+[INFO 2018-04-24 10:11:40]Keyinput initialization success
+[INFO 2018-04-24 10:11:59]TouchScreen is OK
+[INFO 2018-04-24 10:12:04]Keyinput initialization success
+[INFO 2018-04-24 10:13:41]TouchScreen is OK
+[DEBUG 2018-04-24 10:13:41]It's in navi screen
+[INFO 2018-04-24 10:13:43]Keyinput initialization success
+[DEBUG 2018-04-24 10:13:57]Now in loopCheckDestinatons
+[DEBUG 2018-04-24 10:16:15]Now it's in the navi screen
+[ERROR 2018-04-24 10:16:42]class MyLog has no attribute 'Debug' No RouteCalculation
+[INFO 2018-04-24 10:19:45]TouchScreen is OK
+[DEBUG 2018-04-24 10:19:45]It's in navi screen
+[INFO 2018-04-24 10:19:48]Keyinput initialization success
+[DEBUG 2018-04-24 10:20:02]Please wait!!! Wait for information
+[DEBUG 2018-04-24 10:20:06]Please wait!!! Wait for information
+[DEBUG 2018-04-24 10:20:10]Now in loopCheckDestinatons
+[DEBUG 2018-04-24 10:22:18]Now it's in the navi screen
+[ERROR 2018-04-24 10:22:45]class MyLog has no attribute 'Debug' No RouteCalculation
+[INFO 2018-04-24 10:23:29]TouchScreen is OK
+[DEBUG 2018-04-24 10:23:29]It's in navi screen
+[INFO 2018-04-24 10:23:32]Keyinput initialization success
+[DEBUG 2018-04-24 10:23:45]Please wait!!! Wait for information
+[DEBUG 2018-04-24 10:23:49]Please wait!!! Wait for information
+[DEBUG 2018-04-24 10:23:53]Now in loopCheckDestinatons
+[DEBUG 2018-04-24 10:26:10]Now it's in the navi screen
+[DEBUG 2018-04-24 10:26:38]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 10:26:38]Get the route info flag
+[DEBUG 2018-04-24 10:26:43]Now it's in the navi screen
+[DEBUG 2018-04-24 10:26:50]Not in
+[DEBUG 2018-04-24 10:27:11]Recognize image passed
+[DEBUG 2018-04-24 10:27:15]Get the route info flag
+[INFO 2018-04-24 11:05:28]TouchScreen is OK
+[INFO 2018-04-24 11:06:10]TouchScreen is OK
+[DEBUG 2018-04-24 11:06:10]Now run Destination input case
+[ERROR 2018-04-24 11:06:10]cannot concatenate 'str' and 'dict' objects recogCharacters failed
+[DEBUG 2018-04-24 11:06:10]Now run route calculation case
+[DEBUG 2018-04-24 11:06:10]Now run RouteCalculation case
+[DEBUG 2018-04-24 11:06:10]Now it's in the navi screen
+[ERROR 2018-04-24 11:06:17]global name 'Mylog' is not defined No RouteCalculation
+[INFO 2018-04-24 11:07:21]TouchScreen is OK
+[DEBUG 2018-04-24 11:07:21]Now run Destination input case
+[ERROR 2018-04-24 11:07:21]cannot concatenate 'str' and 'dict' objects recogCharacters failed
+[DEBUG 2018-04-24 11:07:21]Now run route calculation case
+[DEBUG 2018-04-24 11:07:21]Now run RouteCalculation case
+[DEBUG 2018-04-24 11:07:21]Now it's in the navi screen
+[ERROR 2018-04-24 11:07:28]cannot concatenate 'str' and 'dict' objects No RouteCalculation
+[INFO 2018-04-24 11:12:28]TouchScreen is OK
+[DEBUG 2018-04-24 11:12:28]Now run Destination input case
+[DEBUG 2018-04-24 11:12:28]Now run {'Input method': 'Free research', 'Test Method': 'Recognition', 'Name': "Free research KTV with method 'recognition'", 'Input content': ['KTV']}:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 11:12:28]It's in navi screen
+[INFO 2018-04-24 11:12:31]Keyinput initialization success
+[DEBUG 2018-04-24 11:12:45]Please wait!!! Wait for information
+[DEBUG 2018-04-24 11:12:49]Please wait!!! Wait for information
+[DEBUG 2018-04-24 11:12:53]Now in loopCheckDestinatons
+[DEBUG 2018-04-24 11:15:03]Now run route calculation case
+[DEBUG 2018-04-24 11:15:03]Now run RouteCalculation case
+[DEBUG 2018-04-24 11:15:03]Now it's in the navi screen
+[DEBUG 2018-04-24 11:15:14]Now run {'Map': {}, 'Coords': [1147, 311], 'Name': 'Route calculation', 'Test Method': 'Recognition'}:Route calculation
+[DEBUG 2018-04-24 11:15:31]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 11:15:31]Get the route info flag
+[DEBUG 2018-04-24 11:15:36]Now run RouteCalculation case
+[DEBUG 2018-04-24 11:15:36]Now it's in the navi screen
+[DEBUG 2018-04-24 11:15:43]Now run {'Map': {'drag': [1147, 311, 311, 311]}, 'Coords': [1147, 311], 'Name': 'Route calculaiton and drag the image', 'Test Method': 'Recognition'}:Route calculaiton and drag the image
+[DEBUG 2018-04-24 11:16:04]Recognize image passed
+[DEBUG 2018-04-24 11:16:09]Get the route info flag
+[INFO 2018-04-24 11:18:19]TouchScreen is OK
+[DEBUG 2018-04-24 11:18:19]Now run Destination input case
+[DEBUG 2018-04-24 11:18:19]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 11:18:19]It's in navi screen
+[INFO 2018-04-24 11:18:21]Keyinput initialization success
+[DEBUG 2018-04-24 11:18:35]Please wait!!! Wait for information
+[DEBUG 2018-04-24 11:18:39]Please wait!!! Wait for information
+[DEBUG 2018-04-24 11:18:43]Now in loopCheckDestinatons
+[DEBUG 2018-04-24 11:20:52]Now run route calculation case
+[DEBUG 2018-04-24 11:20:52]Now run RouteCalculation case
+[DEBUG 2018-04-24 11:20:52]Now it's in the navi screen
+[DEBUG 2018-04-24 11:21:04]Now run case1:Route calculation
+[DEBUG 2018-04-24 11:21:20]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 11:21:20]Get the route info flag
+[DEBUG 2018-04-24 11:21:25]Now run RouteCalculation case
+[DEBUG 2018-04-24 11:21:25]Now it's in the navi screen
+[DEBUG 2018-04-24 11:21:33]Now run case2:Route calculaiton and drag the image
+[DEBUG 2018-04-24 11:21:53]Recognize image passed
+[DEBUG 2018-04-24 11:21:57]Get the route info flag
+[INFO 2018-04-24 12:26:52]TouchScreen is OK
+[DEBUG 2018-04-24 12:26:52]Now run Destination input case
+[DEBUG 2018-04-24 12:26:52]Now run case1:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 12:26:52]TAFramework instance has no attribute 'report' recogCharacters failed
+[DEBUG 2018-04-24 12:26:52]TAFramework instance has no attribute 'report' No Destination
+[DEBUG 2018-04-24 12:26:52]Now run route calculation case
+[DEBUG 2018-04-24 12:26:52]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:26:52]Now it's in the navi screen
+[DEBUG 2018-04-24 12:27:00]Now run case1:Route calculation
+[DEBUG 2018-04-24 12:27:16]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 12:27:16]Get the route info flag
+[DEBUG 2018-04-24 12:27:22]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:27:22]Now it's in the navi screen
+[DEBUG 2018-04-24 12:27:29]Now run case2:Route calculaiton and drag the image
+[DEBUG 2018-04-24 12:27:50]Recognize image passed
+[DEBUG 2018-04-24 12:27:54]Get the route info flag
+[INFO 2018-04-24 12:30:02]TouchScreen is OK
+[DEBUG 2018-04-24 12:30:02]Now run Destination input case
+[DEBUG 2018-04-24 12:30:02]Now run case1:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 12:30:02]TAFramework instance has no attribute 'report' recogCharacters failed
+[DEBUG 2018-04-24 12:30:02]TAFramework instance has no attribute 'report' No Destination
+[DEBUG 2018-04-24 12:30:02]Now run route calculation case
+[DEBUG 2018-04-24 12:30:02]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:30:02]Now it's in the navi screen
+[DEBUG 2018-04-24 12:30:09]Now run case1:Route calculation
+[INFO 2018-04-24 12:31:34]TouchScreen is OK
+[DEBUG 2018-04-24 12:31:34]Now run Destination input case
+[DEBUG 2018-04-24 12:31:34]Now run case1:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 12:31:34]TAFramework instance has no attribute 'report' recogCharacters failed
+[DEBUG 2018-04-24 12:31:34]TAFramework instance has no attribute 'report' No Destination
+[DEBUG 2018-04-24 12:31:34]Now run route calculation case
+[DEBUG 2018-04-24 12:31:34]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:31:34]Now it's in the navi screen
+[DEBUG 2018-04-24 12:31:41]Now run case1:Route calculation
+[INFO 2018-04-24 12:32:39]TouchScreen is OK
+[DEBUG 2018-04-24 12:32:39]Now run Destination input case
+[DEBUG 2018-04-24 12:32:39]Now run case1:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 12:32:39]TAFramework instance has no attribute 'report' recogCharacters failed
+[DEBUG 2018-04-24 12:32:39]TAFramework instance has no attribute 'report' No Destination
+[DEBUG 2018-04-24 12:32:39]Now run route calculation case
+[DEBUG 2018-04-24 12:32:39]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:32:39]Now it's in the navi screen
+[DEBUG 2018-04-24 12:32:51]Now run case1:Route calculation
+[INFO 2018-04-24 12:36:14]TouchScreen is OK
+[DEBUG 2018-04-24 12:36:14]Now run Destination input case
+[DEBUG 2018-04-24 12:36:14]Now run case1:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 12:36:14]TAFramework instance has no attribute 'report' recogCharacters failed
+[DEBUG 2018-04-24 12:36:14]TAFramework instance has no attribute 'report' No Destination
+[DEBUG 2018-04-24 12:36:14]Now run route calculation case
+[DEBUG 2018-04-24 12:36:14]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:36:14]Now it's in the navi screen
+[INFO 2018-04-24 12:43:47]TouchScreen is OK
+[DEBUG 2018-04-24 12:43:47]Now run Destination input case
+[DEBUG 2018-04-24 12:43:47]Now run case1:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 12:43:47]TAFramework instance has no attribute 'report' recogCharacters failed
+[DEBUG 2018-04-24 12:43:47]TAFramework instance has no attribute 'report' No Destination
+[DEBUG 2018-04-24 12:43:47]Now run route calculation case
+[DEBUG 2018-04-24 12:43:47]Now run RouteCalculation case
+[DEBUG 2018-04-24 12:43:47]Now it's in the navi screen
+[DEBUG 2018-04-24 12:46:04]<xlwt.Workbook.Workbook object at 0x0336CD90>
+[DEBUG 2018-04-24 12:47:17]<xlwt.Workbook.Workbook object at 0x0344CD90>
+[DEBUG 2018-04-24 12:51:20]<xlwt.Workbook.Workbook object at 0x033A8D90>
+[DEBUG 2018-04-24 12:51:50]<xlwt.Workbook.Workbook object at 0x03388D90>
+[INFO 2018-04-24 13:01:59]TouchScreen is OK
+[DEBUG 2018-04-24 13:01:59]Now run Destination input case
+[DEBUG 2018-04-24 13:01:59]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 13:01:59]It's in navi screen
+[INFO 2018-04-24 13:02:31]TouchScreen is OK
+[DEBUG 2018-04-24 13:02:31]Now run Destination input case
+[DEBUG 2018-04-24 13:02:31]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 13:02:32]It's in navi screen
+[INFO 2018-04-24 13:02:34]Keyinput initialization success
+[DEBUG 2018-04-24 13:02:48]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:02:52]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:02:56]Now in loopCheckDestinatons
+[ERROR 2018-04-24 13:05:13]TAFramework instance has no attribute 'reprot' recogCharacters failed
+[DEBUG 2018-04-24 13:05:13]Now run route calculation case
+[DEBUG 2018-04-24 13:05:13]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:05:13]Now it's in the navi screen
+[DEBUG 2018-04-24 13:05:29]Now run case1:Route calculation
+[DEBUG 2018-04-24 13:05:45]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 13:05:45]Get the route info flag
+[DEBUG 2018-04-24 13:05:51]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:05:51]Now it's in the navi screen
+[DEBUG 2018-04-24 13:05:58]Now run case2:Route calculaiton and drag the image
+[DEBUG 2018-04-24 13:06:19]Recognize image passed
+[DEBUG 2018-04-24 13:06:23]Get the route info flag
+[INFO 2018-04-24 13:07:51]TouchScreen is OK
+[DEBUG 2018-04-24 13:07:51]Now run Destination input case
+[DEBUG 2018-04-24 13:07:51]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 13:07:51]It's in navi screen
+[INFO 2018-04-24 13:07:54]Keyinput initialization success
+[DEBUG 2018-04-24 13:08:08]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:08:12]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:08:16]Now in loopCheckDestinatons
+[ERROR 2018-04-24 13:10:28]TAFramework instance has no attribute 'reprot' recogCharacters failed
+[DEBUG 2018-04-24 13:10:28]Now run route calculation case
+[DEBUG 2018-04-24 13:10:28]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:10:28]Now it's in the navi screen
+[DEBUG 2018-04-24 13:10:39]Now run case1:Route calculation
+[DEBUG 2018-04-24 13:10:56]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 13:10:56]Get the route info flag
+[DEBUG 2018-04-24 13:11:01]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:11:01]Now it's in the navi screen
+[DEBUG 2018-04-24 13:11:08]Now run case2:Route calculaiton and drag the image
+[DEBUG 2018-04-24 13:11:29]Recognize image passed
+[DEBUG 2018-04-24 13:11:33]Get the route info flag
+[INFO 2018-04-24 13:27:05]TouchScreen is OK
+[DEBUG 2018-04-24 13:27:05]Now run Destination input case
+[DEBUG 2018-04-24 13:27:05]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 13:27:05]It's in navi screen
+[INFO 2018-04-24 13:27:08]Keyinput initialization success
+[DEBUG 2018-04-24 13:27:21]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:27:26]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:27:30]Now in loopCheckDestinatons
+[ERROR 2018-04-24 13:29:47]TAFramework instance has no attribute 'reprot' recogCharacters failed
+[DEBUG 2018-04-24 13:29:47]Now run route calculation case
+[DEBUG 2018-04-24 13:29:47]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:29:47]global name 'row' is not defined No RouteCalculation
+[INFO 2018-04-24 13:34:59]TouchScreen is OK
+[DEBUG 2018-04-24 13:34:59]Now run Destination input case
+[DEBUG 2018-04-24 13:34:59]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 13:34:59]It's in navi screen
+[INFO 2018-04-24 13:35:05]Keyinput initialization success
+[DEBUG 2018-04-24 13:35:19]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:35:23]Please wait!!! Wait for information
+[DEBUG 2018-04-24 13:35:27]Now in loopCheckDestinatons
+[INFO 2018-04-24 13:36:42]TouchScreen is OK
+[DEBUG 2018-04-24 13:36:42]DestinationInput No Destination
+[DEBUG 2018-04-24 13:36:42]Now run route calculation case
+[DEBUG 2018-04-24 13:36:42]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:36:42]global name 'row' is not defined No RouteCalculation
+[INFO 2018-04-24 13:38:32]TouchScreen is OK
+[DEBUG 2018-04-24 13:38:32]DestinationInput No Destination
+[DEBUG 2018-04-24 13:38:32]Now run route calculation case
+[DEBUG 2018-04-24 13:38:32]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:38:32]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-04-24 13:42:54]TouchScreen is OK
+[DEBUG 2018-04-24 13:42:54]DestinationInput No Destination
+[DEBUG 2018-04-24 13:42:54]Now run route calculation case
+[DEBUG 2018-04-24 13:42:54]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:42:54]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-04-24 13:44:25]TouchScreen is OK
+[DEBUG 2018-04-24 13:44:25]DestinationInput No Destination
+[DEBUG 2018-04-24 13:44:25]Now run route calculation case
+[DEBUG 2018-04-24 13:44:25]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:44:25]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-04-24 13:48:07]TouchScreen is OK
+[DEBUG 2018-04-24 13:48:07]DestinationInput No Destination
+[DEBUG 2018-04-24 13:48:07]Now run route calculation case
+[DEBUG 2018-04-24 13:48:07]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:48:07]TAFramework instance has no attribute 'reprot' No RouteCalculation
+[INFO 2018-04-24 13:48:29]TouchScreen is OK
+[DEBUG 2018-04-24 13:48:29]DestinationInput No Destination
+[DEBUG 2018-04-24 13:48:29]Now run route calculation case
+[DEBUG 2018-04-24 13:48:29]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:48:29]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-04-24 13:48:55]TouchScreen is OK
+[DEBUG 2018-04-24 13:48:55]DestinationInput No Destination
+[DEBUG 2018-04-24 13:48:55]Now run route calculation case
+[DEBUG 2018-04-24 13:48:55]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:48:55]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-04-24 13:58:40]TouchScreen is OK
+[DEBUG 2018-04-24 13:58:40]DestinationInput No Destination
+[DEBUG 2018-04-24 13:58:40]Now run route calculation case
+[DEBUG 2018-04-24 13:58:40]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:58:40]Now it's in the navi screen
+[DEBUG 2018-04-24 13:58:51]Now run case1:Route calculation
+[DEBUG 2018-04-24 13:59:08]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 13:59:08]Get the route info flag
+[DEBUG 2018-04-24 13:59:13]Now run RouteCalculation case
+[DEBUG 2018-04-24 13:59:13]Now it's in the navi screen
+[DEBUG 2018-04-24 13:59:20]Now run case2:Route calculaiton and drag the image
+[DEBUG 2018-04-24 13:59:41]Recognize image passed
+[DEBUG 2018-04-24 13:59:45]Get the route info flag
+[INFO 2018-04-24 14:02:59]TouchScreen is OK
+[INFO 2018-04-24 14:04:18]TouchScreen is OK
+[INFO 2018-04-24 14:04:43]TouchScreen is OK
+[DEBUG 2018-04-24 14:04:43]Now run Destination input case
+[DEBUG 2018-04-24 14:04:44]Now run case1:Free research KTV with method 'recognition'
+[DEBUG 2018-04-24 14:04:44]It's in navi screen
+[INFO 2018-04-24 14:04:50]Keyinput initialization success
+[DEBUG 2018-04-24 14:05:04]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:05:08]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:05:12]Now in loopCheckDestinatons
+[ERROR 2018-04-24 14:07:28]Name recogCharacters failed
+[DEBUG 2018-04-24 14:07:28]Now run route calculation case
+[DEBUG 2018-04-24 14:07:28]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:07:28]Now it's in the navi screen
+[DEBUG 2018-04-24 14:07:39]Now run case1:Route calculation
+[DEBUG 2018-04-24 14:07:56]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 14:07:56]Get the route info flag
+[DEBUG 2018-04-24 14:08:01]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:08:01]Now it's in the navi screen
+[DEBUG 2018-04-24 14:08:08]Now run case2:Route calculaiton and drag the image
+[INFO 2018-04-24 14:10:06]TouchScreen is OK
+[DEBUG 2018-04-24 14:10:06]Now run Destination input case
+[DEBUG 2018-04-24 14:10:06]Now run case2:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:10:06]It's in navi screen
+[INFO 2018-04-24 14:10:13]Keyinput initialization success
+[INFO 2018-04-24 14:10:24]TouchScreen is OK
+[DEBUG 2018-04-24 14:10:24]Now run Destination input case
+[DEBUG 2018-04-24 14:10:24]Now run case2:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:10:24]It's in navi screen
+[INFO 2018-04-24 14:10:26]Keyinput initialization success
+[DEBUG 2018-04-24 14:11:57]Now input numbers
+[DEBUG 2018-04-24 14:12:01]Now input numbers
+[DEBUG 2018-04-24 14:12:17]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:21]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:25]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:29]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:33]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:37]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:41]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:45]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:49]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:53]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:12:57]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:13:01]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:13:05]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:13:09]Now in loopCheckDestinatons
+[ERROR 2018-04-24 14:13:10]Something wrong happens, please check Image D:\Temp\TA\MGB\SaveImage/GrabbedSingleFrame 2018_04_24__14_13_09_577000.png
+[DEBUG 2018-04-24 14:13:29]Now run route calculation case
+[DEBUG 2018-04-24 14:13:29]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:13:29]Now it's in the navi screen
+[DEBUG 2018-04-24 14:13:41]Now run case1:Route calculation
+[INFO 2018-04-24 14:16:40]TouchScreen is OK
+[DEBUG 2018-04-24 14:16:40]Now run Destination input case
+[DEBUG 2018-04-24 14:16:40]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:16:40]It's in navi screen
+[INFO 2018-04-24 14:16:43]Keyinput initialization success
+[DEBUG 2018-04-24 14:18:12]Now input numbers
+[DEBUG 2018-04-24 14:18:16]Now input numbers
+[DEBUG 2018-04-24 14:18:32]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:18:36]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:18:40]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:18:44]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:18:48]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:18:52]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:18:56]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:00]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:04]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:08]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:12]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:16]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:20]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:19:24]Now in loopCheckDestinatons
+[ERROR 2018-04-24 14:19:25]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-04-24 14:19:25]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 14:19:25]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-04-24 14:19:25]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-04-24 14:19:25]Now run route calculation case
+[DEBUG 2018-04-24 14:19:25]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:19:25]Now it's in the navi screen
+[DEBUG 2018-04-24 14:19:44]Now run case1:Route calculation
+[INFO 2018-04-24 14:23:01]TouchScreen is OK
+[DEBUG 2018-04-24 14:23:01]Now run Destination input case
+[DEBUG 2018-04-24 14:23:01]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:23:02]It's in navi screen
+[INFO 2018-04-24 14:23:04]Keyinput initialization success
+[DEBUG 2018-04-24 14:24:35]Now input numbers
+[DEBUG 2018-04-24 14:24:39]Now input numbers
+[DEBUG 2018-04-24 14:24:55]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:24:59]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:25:03]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:25:07]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:25:11]Please wait!!! Wait for information
+[INFO 2018-04-24 14:25:20]TouchScreen is OK
+[DEBUG 2018-04-24 14:25:20]Now run Destination input case
+[DEBUG 2018-04-24 14:25:20]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:25:20]It's in navi screen
+[INFO 2018-04-24 14:25:26]Keyinput initialization success
+[INFO 2018-04-24 14:29:00]TouchScreen is OK
+[DEBUG 2018-04-24 14:29:00]Now run Destination input case
+[DEBUG 2018-04-24 14:29:00]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:29:00]It's in navi screen
+[INFO 2018-04-24 14:29:06]Keyinput initialization success
+[DEBUG 2018-04-24 14:30:41]Now input numbers
+[DEBUG 2018-04-24 14:30:45]Now input numbers
+[DEBUG 2018-04-24 14:31:00]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:31:05]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:31:09]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:31:13]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:31:17]Now in loopCheckDestinatons
+[ERROR 2018-04-24 14:31:18]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-04-24 14:31:18]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 14:31:18]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-04-24 14:31:18]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-04-24 14:31:18]Now run route calculation case
+[DEBUG 2018-04-24 14:31:18]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:31:18]Now it's in the navi screen
+[DEBUG 2018-04-24 14:31:29]Now run case1:Route calculation
+[INFO 2018-04-24 14:42:45]TouchScreen is OK
+[DEBUG 2018-04-24 14:42:45]Now run Destination input case
+[DEBUG 2018-04-24 14:42:45]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 14:42:45]It's in navi screen
+[INFO 2018-04-24 14:42:48]Keyinput initialization success
+[DEBUG 2018-04-24 14:44:23]Now input numbers
+[DEBUG 2018-04-24 14:44:28]Now input numbers
+[DEBUG 2018-04-24 14:44:43]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:44:47]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:44:51]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:44:55]Please wait!!! Wait for information
+[DEBUG 2018-04-24 14:44:59]Now in loopCheckDestinatons
+[ERROR 2018-04-24 14:45:01]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-04-24 14:45:01]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 14:45:01]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-04-24 14:45:01]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-04-24 14:45:01]Now run route calculation case
+[DEBUG 2018-04-24 14:45:01]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:45:01]Now it's in the navi screen
+[DEBUG 2018-04-24 14:45:12]Now run case1:Route calculation
+[DEBUG 2018-04-24 14:45:28]Get the flag Passed, and then check route information
+[DEBUG 2018-04-24 14:45:29]Get the route info flag
+[DEBUG 2018-04-24 14:45:34]Now run RouteCalculation case
+[DEBUG 2018-04-24 14:45:34]Now it's in the navi screen
+[DEBUG 2018-04-24 14:45:41]Now run case2:Route calculaiton and drag the image
+[DEBUG 2018-04-24 14:46:02]Recognize image passed
+[DEBUG 2018-04-24 14:46:06]Get the route info flag
+[INFO 2018-04-24 15:48:14]TouchScreen is OK
+[DEBUG 2018-04-24 15:48:14]Now run Destination input case
+[DEBUG 2018-04-24 15:48:14]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 15:48:14]It's in navi screen
+[INFO 2018-04-24 15:48:16]Keyinput initialization success
+[DEBUG 2018-04-24 15:49:52]Now input numbers
+[DEBUG 2018-04-24 15:49:56]Now input numbers
+[DEBUG 2018-04-24 15:50:12]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:50:16]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:50:20]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:50:54]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:50:58]Now in loopCheckDestinatons
+[INFO 2018-04-24 15:51:24]TouchScreen is OK
+[DEBUG 2018-04-24 15:51:24]Now run Destination input case
+[DEBUG 2018-04-24 15:51:24]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 15:51:24]It's in navi screen
+[INFO 2018-04-24 15:51:31]Keyinput initialization success
+[DEBUG 2018-04-24 15:53:06]Now input numbers
+[DEBUG 2018-04-24 15:53:11]Now input numbers
+[DEBUG 2018-04-24 15:53:26]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:53:30]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:53:34]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:53:38]Please wait!!! Wait for information
+[DEBUG 2018-04-24 15:53:42]Now in loopCheckDestinatons
+[ERROR 2018-04-24 15:53:43]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-04-24 15:53:43]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 15:53:43]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-04-24 15:53:43]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-04-24 15:53:43]Now run route calculation case
+[DEBUG 2018-04-24 15:53:43]Now run RouteCalculation case
+[DEBUG 2018-04-24 15:53:43]Now it's in the navi screen
+[INFO 2018-04-24 16:23:35]TouchScreen is OK
+[DEBUG 2018-04-24 16:23:35]Now run Destination input case
+[DEBUG 2018-04-24 16:23:35]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-04-24 16:23:35]It's in navi screen
+[INFO 2018-04-24 16:23:37]Keyinput initialization success
+[DEBUG 2018-04-24 16:25:12]Now input numbers
+[DEBUG 2018-04-24 16:25:17]Now input numbers
+[DEBUG 2018-04-24 16:25:32]Please wait!!! Wait for information
+[DEBUG 2018-04-24 16:25:37]Please wait!!! Wait for information
+[DEBUG 2018-04-24 16:25:41]Please wait!!! Wait for information
+[DEBUG 2018-04-24 16:25:45]Please wait!!! Wait for information
+[DEBUG 2018-04-24 16:25:49]Now in loopCheckDestinatons
+[ERROR 2018-04-24 16:25:50]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-04-24 16:25:50]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-04-24 16:25:50]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-04-24 16:25:50]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-04-24 16:25:50]Now run route calculation case
+[DEBUG 2018-04-24 16:25:50]Now run RouteCalculation case
+[DEBUG 2018-04-24 16:25:50]Now it's in the navi screen
+[INFO 2018-05-02 13:57:10]TouchScreen is OK
+[DEBUG 2018-05-02 13:57:10]Now run Destination input case
+[DEBUG 2018-05-02 13:57:10]Now run case1:Free research Xueqinglu18 with method recognition
+[INFO 2018-05-02 13:57:19]Keyinput initialization success
+[INFO 2018-05-02 13:57:34]TouchScreen is OK
+[DEBUG 2018-05-02 13:57:34]Now run Destination input case
+[DEBUG 2018-05-02 13:57:34]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-05-02 13:57:34]It's in navi screen
+[INFO 2018-05-02 13:57:41]Keyinput initialization success
+[INFO 2018-05-02 13:58:26]TouchScreen is OK
+[DEBUG 2018-05-02 13:58:26]Now run Destination input case
+[DEBUG 2018-05-02 13:58:26]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-05-02 13:58:26]It's in navi screen
+[INFO 2018-05-02 13:58:28]Keyinput initialization success
+[INFO 2018-05-02 14:00:30]TouchScreen is OK
+[DEBUG 2018-05-02 14:00:30]Now run Destination input case
+[DEBUG 2018-05-02 14:00:30]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-05-02 14:00:30]It's in navi screen
+[INFO 2018-05-02 14:00:36]Keyinput initialization success
+[DEBUG 2018-05-02 14:02:12]Now input numbers
+[DEBUG 2018-05-02 14:02:16]Now input numbers
+[DEBUG 2018-05-02 14:02:32]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:02:36]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:02:40]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:02:44]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:02:48]Now in loopCheckDestinatons
+[ERROR 2018-05-02 14:02:49]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-05-02 14:02:49]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-05-02 14:02:49]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-05-02 14:02:49]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-05-02 14:02:49]Now run route calculation case
+[DEBUG 2018-05-02 14:02:49]Now run RouteCalculation case
+[DEBUG 2018-05-02 14:02:49]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-05-02 14:03:46]TouchScreen is OK
+[DEBUG 2018-05-02 14:03:46]Now run Destination input case
+[DEBUG 2018-05-02 14:03:46]Now run case1:Free research Xueqinglu18 with method recognition
+[DEBUG 2018-05-02 14:03:46]It's in navi screen
+[INFO 2018-05-02 14:03:53]Keyinput initialization success
+[DEBUG 2018-05-02 14:05:28]Now input numbers
+[DEBUG 2018-05-02 14:05:32]Now input numbers
+[DEBUG 2018-05-02 14:05:48]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:05:52]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:05:56]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:06:00]Please wait!!! Wait for information
+[DEBUG 2018-05-02 14:06:04]Now in loopCheckDestinatons
+[ERROR 2018-05-02 14:06:05]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-05-02 14:06:05]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-05-02 14:06:05]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-05-02 14:06:05]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-05-02 14:06:05]Now run route calculation case
+[DEBUG 2018-05-02 14:06:05]Now run RouteCalculation case
+[DEBUG 2018-05-02 14:06:05]'Worksheet' object is not callable No RouteCalculation
+[INFO 2018-05-03 13:46:33]TouchScreen is OK
+[DEBUG 2018-05-03 13:46:33]Now run Destination input case
+[DEBUG 2018-05-03 13:46:33]Now run case1:Free research Xueqinglu18 with method recognition
+[INFO 2018-05-03 13:46:38]Keyinput initialization success
+[DEBUG 2018-05-03 13:48:13]Now input numbers
+[DEBUG 2018-05-03 13:48:18]Now input numbers
+[DEBUG 2018-05-03 13:48:33]Please wait!!! Wait for information
+[DEBUG 2018-05-03 13:48:37]Please wait!!! Wait for information
+[DEBUG 2018-05-03 13:48:41]Please wait!!! Wait for information
+[DEBUG 2018-05-03 13:48:45]Please wait!!! Wait for information
+[DEBUG 2018-05-03 13:48:49]Now in loopCheckDestinatons
+[ERROR 2018-05-03 13:48:50]local variable 'returnResult' referenced before assignment recogCharacters failed
+[DEBUG 2018-05-03 13:48:50]Now run case2:Free research KTV with method 'recognition'
+[ERROR 2018-05-03 13:48:50]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[DEBUG 2018-05-03 13:48:50]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=1 No Destination
+[DEBUG 2018-05-03 13:48:50]Now run route calculation case
+[DEBUG 2018-05-03 13:48:50]Now run RouteCalculation case
+[DEBUG 2018-05-03 13:48:50]'Worksheet' object is not callable No RouteCalculation

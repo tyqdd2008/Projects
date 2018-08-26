@@ -1,0 +1,15 @@
+#default keyboard layout to use
+defaultKeyboardLayout: fpma_en_GB_qwerty-lss.json
+
+#character icon dimension 
+keyHeight: 128
+keyWidth: 94
+keyXOffset: 120
+keyYOffset: 7
+maxDisplayWidth: 1240
+
+#define default wait in ms between 2 finger touch events
+waitBetweenChars: 2.0
+
+#define default force value, which should be used for touching
+forceValue: 99

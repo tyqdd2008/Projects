@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MASK name="mask_Green_EM">
+    <ELEMENTS>
+        <ELEMENT type="Rectangle" index="0">
+            <OffsetX>350</OffsetX>
+            <OffsetY>105</OffsetY>
+            <SizeX>750</SizeX>
+            <SizeY>100</SizeY>
+        </ELEMENT>
+    </ELEMENTS>
+</MASK>

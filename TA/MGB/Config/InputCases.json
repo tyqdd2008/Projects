@@ -1,0 +1,33 @@
+﻿{	
+	"DestinationInput": {
+		"NormalInput": {
+			
+			"case1":{
+				"Name": "Free research Xueqinglu18 with method recognition",
+				"Input method": "Free research",
+				"Input content": ["朝阳路18号", "chaoyanglu18hao", ["chao", "yang", "lu", "1", "8", "hao"]],
+				"Test Method": "Recognition"
+			},
+			"case2": {
+				"Name": "Free research KTV with method 'recognition'",
+				"Input method": "Free research",
+				"Input content": ["KTV"],
+				"Test Method": "Recognition"
+			}
+		}
+	},
+	"RouteCalculation": {
+		"case1": {
+			"Name": "Route calculation",
+			"Coords": [1147,311],
+			"Map": {},
+			"Test Method": "Recognition"
+		},
+		"case2":{
+			"Name": "Route calculaiton and drag the image",
+			"Coords": [1147,311],
+			"Map": {"drag" :[1147, 311, 311, 311]},
+			"Test Method": "Recognition"			
+		}
+	}
+}

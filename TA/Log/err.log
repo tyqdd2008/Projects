@@ -1,0 +1,38 @@
+[ERROR 2018-04-23 18:32:06]This is error message
+[ERROR 2018-04-23 18:33:58]This is error message
+[ERROR 2018-04-23 19:00:17]This is wrong
+[ERROR 2018-04-23 19:01:48]Failed!!! characters not found
+[ERROR 2018-04-24 10:07:54]Failed!!! characters not found
+[ERROR 2018-04-24 10:16:42]class MyLog has no attribute 'Debug' No RouteCalculation
+[ERROR 2018-04-24 10:22:45]class MyLog has no attribute 'Debug' No RouteCalculation
+[ERROR 2018-04-24 11:06:10]cannot concatenate 'str' and 'dict' objects recogCharacters failed
+[ERROR 2018-04-24 11:06:17]global name 'Mylog' is not defined No RouteCalculation
+[ERROR 2018-04-24 11:07:21]cannot concatenate 'str' and 'dict' objects recogCharacters failed
+[ERROR 2018-04-24 11:07:28]cannot concatenate 'str' and 'dict' objects No RouteCalculation
+[ERROR 2018-04-24 12:26:52]TAFramework instance has no attribute 'report' recogCharacters failed
+[ERROR 2018-04-24 12:30:02]TAFramework instance has no attribute 'report' recogCharacters failed
+[ERROR 2018-04-24 12:31:34]TAFramework instance has no attribute 'report' recogCharacters failed
+[ERROR 2018-04-24 12:32:39]TAFramework instance has no attribute 'report' recogCharacters failed
+[ERROR 2018-04-24 12:36:14]TAFramework instance has no attribute 'report' recogCharacters failed
+[ERROR 2018-04-24 12:43:47]TAFramework instance has no attribute 'report' recogCharacters failed
+[ERROR 2018-04-24 13:05:13]TAFramework instance has no attribute 'reprot' recogCharacters failed
+[ERROR 2018-04-24 13:10:28]TAFramework instance has no attribute 'reprot' recogCharacters failed
+[ERROR 2018-04-24 13:29:47]TAFramework instance has no attribute 'reprot' recogCharacters failed
+[ERROR 2018-04-24 14:07:28]Name recogCharacters failed
+[ERROR 2018-04-24 14:13:10]Something wrong happens, please check Image D:\Temp\TA\MGB\SaveImage/GrabbedSingleFrame 2018_04_24__14_13_09_577000.png
+[ERROR 2018-04-24 14:19:25]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-04-24 14:19:25]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-04-24 14:31:18]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-04-24 14:31:18]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-04-24 14:45:01]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-04-24 14:45:01]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-04-24 15:53:43]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-04-24 15:53:43]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-04-24 16:25:50]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-04-24 16:25:50]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-05-02 14:02:49]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-05-02 14:02:49]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-05-02 14:06:05]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-05-02 14:06:05]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
+[ERROR 2018-05-03 13:48:50]local variable 'returnResult' referenced before assignment recogCharacters failed
+[ERROR 2018-05-03 13:48:50]Attempt to overwrite cell: sheetname=u'report' rowx=2 colx=0 recogCharacters failed
